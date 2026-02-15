@@ -17,10 +17,10 @@
   "nav": {
     "home": "Start",
     "intro": "Einführung",
-    "courses": "Angebote",
+    "courses": "Heilungsmethoden",
     "about": "Mein Weg",
-    "voices": "Stimmen",
-    "pricing": "Preise",
+    "voices": "Vertrauensstimmen",
+    "pricing": "Pakete",
     "faq": "FAQ",
     "menu": "Menü",
     "openMenu": "Menü öffnen",
@@ -133,7 +133,7 @@
     },
     "voices": {
       "title": "Stimmen, die vertrauen",
-      "subtitle": "Kurze Erfahrungsberichte von Klient:innen.",
+      "subtitle": "Kurze Erfahrungsberichte von Klienten.",
       "items": {
         "t1": {
           "quote": "Mariems Sound Healing fühlte sich an wie träumen und fliegen – ich kam erschöpft an und ging tief erholt, fast wie nach einem nährenden Urlaub. Ihre sanfte Stimme und der warme Raum haben mein Herz berührt.",

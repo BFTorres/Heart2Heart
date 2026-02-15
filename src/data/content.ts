@@ -17,7 +17,7 @@ export const SITE = {
 
 export const NAV = [
   { id: "home", labelKey: "nav.home" },
-  { id: "intro", labelKey: "nav.intro" },
+  /* { id: "intro", labelKey: "nav.intro" }, */
   { id: "courses", labelKey: "nav.courses" },
   { id: "about", labelKey: "nav.about" },
   { id: "voices", labelKey: "nav.voices" },

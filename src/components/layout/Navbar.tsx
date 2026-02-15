@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { NAV, SITE } from "@/data/content";
+import { NAV } from "@/data/content";
 import { useAccessibilityStore } from "@/stores/accessibility-store";
 import { Button } from "@/components/ui/button";
 import {
