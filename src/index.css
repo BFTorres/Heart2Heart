@@ -1,0 +1,290 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* ------------------------------------------------------------------------- */
+/* App Themes (4 modes) + shadcn token mapping (Tailwind v4 @theme inline)    */
+/* ------------------------------------------------------------------------- */
+
+/* Default to light */
+:root,
+
+.app-theme-light {
+  color-scheme: light;
+
+  /* Brand colors (keep the original + an accessible “ink” variant) */
+  --brand: hsl(157.24 15.85% 64.12%);   /* original from Mariem */
+  --brand-ink: hsl(157.24 15.85% 40%);  /* darker, passes contrast for text + UI boundaries */
+  --brand-soft: hsl(157.24 15.85% 92%); /* subtle tint for hover/accents */
+
+  /* Page surface */
+  --background: hsl(22.5 40% 96.08%);   /* rgb(249, 244, 241) */
+  --foreground: hsl(222 47% 11%);       /* keep body text readable */
+
+  /* Cards */
+  --card: hsl(0 0% 87.84%);             /* card background from Mariem */
+  --card-foreground: hsl(222 47% 11%);
+
+  /* Popovers/dialogs (keep crisp white for readability) */
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(222 47% 11%);
+
+  /* Brand mapping to shadcn tokens */
+  --primary: var(--brand-ink);
+  --primary-foreground: hsl(0 0% 100%);
+
+  /* Neutrals */
+  --secondary: hsl(22.5 35% 92%);
+  --secondary-foreground: hsl(222 47% 11%);
+
+  --muted: hsl(22.5 30% 93%);
+  --muted-foreground: hsl(215 16% 40%);
+
+  /* Accent surfaces (hover states etc.) */
+  --accent: var(--brand-soft);
+  --accent-foreground: hsl(222 47% 11%);
+
+  /* System */
+  --destructive: hsl(0 84% 60%);
+  --destructive-foreground: hsl(0 0% 100%);
+
+  /* Borders + inputs:
+     - Keep general borders warm/neutral
+     - Make inputs + outline buttons use the accessible brand border */
+  --border: hsl(24 18% 78%);
+  --input: var(--brand-ink);
+  --ring: var(--brand-ink);
+
+  --radius: 14px;
+}
+
+/* Optional (recommended): only main content headings use brand color (no markup changes) */
+.app-theme-light #content h1,
+.app-theme-light #content h2,
+.app-theme-light #content h3 {
+  color: var(--primary);
+}
+
+/* Dark (neutral-warm, less blue) */
+.app-theme-dark {
+  color-scheme: dark;
+
+  /* Brand */
+  --brand: hsl(157.24 15.85% 64.12%);
+  --brand-ink: hsl(157.24 15.85% 72%);
+  --brand-soft: hsl(157.24 12% 18%);
+
+  /* Surfaces (warm charcoal instead of blue) */
+  --background: hsl(24 12% 7%);         /* warm near-black */
+  --foreground: hsl(0 0% 98%);          /* neutral white */
+
+  /* Cards/popovers slightly lifted */
+  --card: hsl(24 10% 11%);
+  --card-foreground: hsl(0 0% 98%);
+
+  --popover: hsl(30 9% 11%);
+  --popover-foreground: hsl(0 0% 98%);
+
+  /* Primary (brand button) */
+  --primary: var(--brand);
+  --primary-foreground: hsl(30 12% 10%); /* dark warm text on brand */
+
+  /* Neutrals */
+  --secondary: hsl(30 7% 16%);
+  --secondary-foreground: hsl(0 0% 98%);
+
+  --muted: hsl(30 7% 16%);
+  --muted-foreground: hsl(0 0% 72%);
+
+  /* Accent (green-tinted hover surfaces) */
+  --accent: var(--brand-soft);
+  --accent-foreground: hsl(0 0% 98%);
+
+  /* System */
+  --destructive: hsl(0 62% 38%);
+  --destructive-foreground: hsl(0 0% 100%);
+
+  /* Borders/inputs */
+  --border: hsl(30 6% 24%);
+  --input: var(--brand);
+  --ring: var(--brand);
+
+  --radius: 14px;
+}
+/*   --background: hsl(30 10% 7%); → hsl(24 12% 7%)
+
+--card: hsl(30 9% 11%); → hsl(24 10% 11%) */
+
+/* Optional: brand headings in dark theme */
+.app-theme-dark #content h1,
+.app-theme-dark #content h2,
+.app-theme-dark #content h3 {
+  color: var(--brand);
+}
+
+
+
+/* High contrast - light */
+.app-theme-contrast-light {
+  color-scheme: light;
+
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(0 0% 0%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(0 0% 0%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(0 0% 0%);
+  --primary: hsl(0 0% 0%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(0 0% 95%);
+  --secondary-foreground: hsl(0 0% 0%);
+  --muted: hsl(0 0% 95%);
+  --muted-foreground: hsl(0 0% 20%);
+  --accent: hsl(0 0% 90%);
+  --accent-foreground: hsl(0 0% 0%);
+  --destructive: hsl(0 100% 35%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(0 0% 0%);
+  --input: hsl(0 0% 0%);
+  --ring: hsl(0 0% 0%);
+
+  --radius: 14px;
+}
+
+/* High contrast - dark */
+.app-theme-contrast {
+  color-scheme: dark;
+
+  --background: hsl(0 0% 0%);
+  --foreground: hsl(0 0% 100%);
+  --card: hsl(0 0% 0%);
+  --card-foreground: hsl(0 0% 100%);
+  --popover: hsl(0 0% 0%);
+  --popover-foreground: hsl(0 0% 100%);
+  --primary: hsl(0 0% 100%);
+  --primary-foreground: hsl(0 0% 0%);
+  --secondary: hsl(0 0% 15%);
+  --secondary-foreground: hsl(0 0% 100%);
+  --muted: hsl(0 0% 15%);
+  --muted-foreground: hsl(0 0% 85%);
+  --accent: hsl(0 0% 20%);
+  --accent-foreground: hsl(0 0% 100%);
+  --destructive: hsl(0 100% 70%);
+  --destructive-foreground: hsl(0 0% 0%);
+  --border: hsl(0 0% 100%);
+  --input: hsl(0 0% 100%);
+  --ring: hsl(0 0% 100%);
+
+  --radius: 14px;
+}
+
+/* Tell Tailwind how to resolve shadcn token utilities like bg-background */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius: var(--radius);
+}
+
+/* ------------------------------------------------------------------------- */
+/* Base styles                                                                */
+/* ------------------------------------------------------------------------- */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Better text rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  transform: translateY(-200%);
+  padding: 0.5rem 0.75rem;
+  border-radius: 9999px;
+  background: var(--foreground);
+  color: var(--background);
+  z-index: 1000;
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* ------------------------------------------------------------------------- */
+/* Accessibility preferences (applied via root classes)                       */
+/* ------------------------------------------------------------------------- */
+
+/* Font size adjusts the base rem scale (root) */
+/* Default base is now 18px via html { font-size: 112.5%; } */
+
+.a11y-font-size-sm { font-size: 100%; }     /* 16px (smaller than default) */
+.a11y-font-size-md { font-size: 112.5%; }   /* 18px (default) */
+.a11y-font-size-lg { font-size: 125%; }     /* 20px */
+.a11y-font-size-xl { font-size: 137.5%; }   /* 22px */
+
+
+.a11y-font-family-system body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.a11y-font-family-readable body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  letter-spacing: 0.01em;
+}
+
+.a11y-line-height-normal body { line-height: 1.5; }
+.a11y-line-height-relaxed body { line-height: 1.75; }
+.a11y-line-height-loose body { line-height: 2; }
+
+.a11y-high-visibility-links a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.a11y-strong-focus :focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 3px;
+}
+
+.a11y-highlight-headings :is(h1,h2,h3) {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+/* Reduced motion - disable non-essential animations/transitions */
+.a11y-reduced-motion *,
+.a11y-reduced-motion *::before,
+.a11y-reduced-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
