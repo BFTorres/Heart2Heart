@@ -47,7 +47,7 @@ export function AccessibilityDialog() {
          - p-0 + overflow-hidden so internal sections can scroll cleanly
          - w calc(...) so it fits on mobile without touching screen edges
       */}
-      <DialogContent className="w-[calc(100%-1.5rem)] max-w-xl overflow-hidden rounded-2xl p-0">
+      <DialogContent className="w-[calc(100%-1.5rem)] max-h-[90vh] max-w-xl overflow-hidden rounded-2xl p-0">
         {/* Sticky header */}
         <div className="sticky top-0 z-10 border-b border-border bg-background/95 px-6 py-4 backdrop-blur">
           <DialogHeader>
@@ -65,7 +65,7 @@ export function AccessibilityDialog() {
 
         {/* Scrollable body */}
         <div
-          className="max-h-[70vh] overflow-y-auto px-6 py-5 overscroll-contain"
+          className="max-h-[60vh] overflow-y-auto px-6 py-5 overscroll-contain"
           style={{ WebkitOverflowScrolling: "touch" }}
         >
           <div className="grid gap-5">
