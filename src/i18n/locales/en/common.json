@@ -50,7 +50,7 @@
     },
     "courses": {
       "title": "Healing Options",
-      "subtitle": "A short overview of what’s available. Tap “Learn more” for details.",
+      "subtitle": "A short overview of what's available. Tap “Learn more” for details.",
       "metaLabels": {
         "duration": "Duration",
         "format": "Format",
@@ -61,7 +61,7 @@
         "sound-healing": {
           "title": "Sound Healing",
           "description": "A calming, immersive experience—sound as a space for rest and connection.",
-          "details": "A spacious 1:1 session designed for deep rest and reconnection.\n\nWe begin with a short check-in, intention setting, and a gentle arrival in the body. You’ll be guided through grounding and regulation practices before we move into an immersive sound journey.\n\nAfterwards, we take time for integration—so you leave feeling more settled, clear, and supported.",
+          "details": "A spacious 1:1 session designed for deep rest and reconnection.\n\nWe begin with a short check-in, intention setting, and a gentle arrival in the body. You'll be guided through grounding and regulation practices before we move into an immersive sound journey.\n\nAfterwards, we take time for integration—so you leave feeling more settled, clear, and supported.",
           "meta": {
             "duration": "120 minutes",
             "format": "In person (studio)",
@@ -72,7 +72,7 @@
         "sound-bath": {
           "title": "Sound Bath",
           "description": "A group sound journey—for deep relaxation and integration.",
-          "details": "A shared sound experience for small groups—calm, immersive, and deeply restorative.\n\nYou’ll be invited to get comfortable with cushions and blankets while sound creates a safe container for slowing down. This is ideal if you want to decompress, reset, and feel more grounded.\n\nNo prior experience needed—just come as you are and allow yourself to receive.",
+          "details": "A shared sound experience for small groups—calm, immersive, and deeply restorative.\n\nYou'll be invited to get comfortable with cushions and blankets while sound creates a safe container for slowing down. This is ideal if you want to decompress, reset, and feel more grounded.\n\nNo prior experience needed—just come as you are and allow yourself to receive.",
           "meta": {
             "duration": "60 minutes",
             "format": "In person (studio)",
@@ -94,7 +94,7 @@
         "somatic-coaching": {
           "title": "Somatic Coaching",
           "description": "1:1 support to explore patterns, boundaries, and body-based resources.",
-          "details": "Somatic coaching offers 1:1 support to explore patterns, boundaries, and resources through the lens of the body.\n\nSessions combine practical reflection with embodied tools—so you can notice what’s happening in real time, build regulation skills, and strengthen your capacity to respond with more choice.\n\nGentle, respectful, and paced to what feels safe—this is for you if you want sustainable change, not quick fixes.",
+          "details": "Somatic coaching offers 1:1 support to explore patterns, boundaries, and resources through the lens of the body.\n\nSessions combine practical reflection with embodied tools—so you can notice what's happening in real time, build regulation skills, and strengthen your capacity to respond with more choice.\n\nGentle, respectful, and paced to what feels safe—this is for you if you want sustainable change, not quick fixes.",
           "meta": {
             "duration": "60 minutes",
             "format": "In person (studio)",
@@ -116,9 +116,9 @@
         "ifs": {
           "title": "Internal Family Systems (IFS)",
           "description": "A gentle approach to understanding inner parts with curiosity and compassion.",
-          "details": "Internal Family Systems (IFS) is a gentle, respectful approach to understanding your inner world.\n\nTogether we explore ‘parts’—protective patterns, emotions, and inner responses—with curiosity and compassion. This can create more clarity, self-trust, and inner steadiness.\n\nSessions are paced, supportive, and grounded—so you can meet yourself with more understanding and less overwhelm.",
+          "details": "Internal Family Systems (IFS) is a gentle, respectful approach to understanding your inner world.\n\nTogether we explore ‘parts'—protective patterns, emotions, and inner responses—with curiosity and compassion. This can create more clarity, self-trust, and inner steadiness.\n\nSessions are paced, supportive, and grounded—so you can meet yourself with more understanding and less overwhelm.",
           "meta": {
-            "duration": "60–90 minutes",
+            "duration": "60-90 minutes",
             "format": "In person (studio)",
             "group": "1:1",
             "price": "From €120"
@@ -128,8 +128,8 @@
     },
     "about": {
       "title": "My Journey",
-      "summary": "Healing doesn’t happen all at once. It unfolds—step by step, across time, places, and seasons of our lives.\n\nHeart 2 Heart Somatics grew from this lived experience—gentle, grounded support for stress regulation, body connection, and inner balance.",
-      "body": "Healing doesn’t happen all at once. It unfolds—step by step, across time, places, and seasons of our lives.\n\nI left Tunisia at seventeen and began building a life in Italy. I studied, worked long hours, and learned to keep going—often relying on resilience alone. For a while, that felt like enough. Until life asked for something different.\n\nMoving to Germany, and later spending time in Dubai and the Netherlands, became turning points. I started therapy and stepped into personal development training where I discovered embodiment practices—the moment I realized my body had been speaking all along. Learning to listen changed everything.\n\nFrom there I deepened my path through somatic coaching, Internal Family Systems (IFS), yoga teacher training, sound healing, and Reiki. In Nepal, during a three-day silent fasting retreat, stillness made something clear: I wanted to create a space where people can come home to themselves.\n\nHeart 2 Heart Somatics grew from this lived experience. My work is gentle, grounded, and paced to what feels safe—supporting you in stress regulation, body connection, and inner balance, in person or online.",
+      "summary": "Healing doesn't happen all at once. It unfolds—step by step, across time, places, and seasons of our lives.\n\nHeart 2 Heart Somatics grew from this lived experience—gentle, grounded support for stress regulation, body connection, and inner balance.",
+      "body": "Healing doesn't happen all at once. It unfolds—step by step, across time, places, and seasons of our lives.\n\nI left Tunisia at seventeen and began building a life in Italy. I studied, worked long hours, and learned to keep going—often relying on resilience alone. For a while, that felt like enough. Until life asked for something different.\n\nMoving to Germany, and later spending time in Dubai and the Netherlands, became turning points. I started therapy and stepped into personal development training where I discovered embodiment practices—the moment I realized my body had been speaking all along. Learning to listen changed everything.\n\nFrom there I deepened my path through somatic coaching, Internal Family Systems (IFS), yoga teacher training, sound healing, and Reiki. In Nepal, during a three-day silent fasting retreat, stillness made something clear: I wanted to create a space where people can come home to themselves.\n\nHeart 2 Heart Somatics grew from this lived experience. My work is gentle, grounded, and paced to what feels safe—supporting you in stress regulation, body connection, and inner balance, in person or online.",
       "imageAlt": "Portrait-style image representing personal growth and calm"
     },
     "voices": {
@@ -137,17 +137,17 @@
       "subtitle": "Short testimonials from clients.",
       "items": {
         "t1": {
-          "quote": "Mariem’s sound healing felt like dreaming and flying - I arrived tired and left deeply rested, almost like after a nourishing holiday. Her gentle voice and warm space touched my heart",
+          "quote": "Mariem's sound healing felt like dreaming and flying - I arrived tired and left deeply rested, almost like after a nourishing holiday. Her gentle voice and warm space touched my heart",
           "name": "Jolin",
           "role": "Tibetan Sound Healing / Germany"
         },
         "t2": {
-          "quote": "Working with Mariem has been deeply transformative - she holds space with rare warmth, compassion, and intuitive wisdom. Her blend of IFS and somatic work helped me reconnect with myself in profound ways. If you´re looking for someone who genuinely cares and has the wisdom and skills to support your healing, i can´t recommend Mariem highly enough!",
+          "quote": "Working with Mariem has been deeply transformative - she holds space with rare warmth, compassion, and intuitive wisdom. Her blend of IFS and somatic work helped me reconnect with myself in profound ways. If you're looking for someone who genuinely cares and has the wisdom and skills to support your healing, i can't recommend Mariem highly enough!",
           "name": "Omnia",
           "role": "Internal Family System (IFS) / UAE"
         },
         "t3": {
-          "quote": "Mariem’s sound bath during the lunar eclipse was a powerful ritual that left my body and soul vibrating in harmony. I felt realignment, clarity, and deep feminine connection return to me.",
+          "quote": "Mariem's sound bath during the lunar eclipse was a powerful ritual that left my body and soul vibrating in harmony. I felt realignment, clarity, and deep feminine connection return to me.",
           "name": "Monika",
           "role": "Sound bath / Germany"
         }
@@ -155,10 +155,10 @@
     },
     "pricing": {
       "title": "Packages",
-      "subtitle": "Everything is tailored to your needs. We’ll build your package together—based on your goals, schedule, and what feels supportive.",
+      "subtitle": "Everything is tailored to your needs. We'll build your package together—based on your goals, schedule, and what feels supportive.",
       "businessEmail": {
         "subject": "Business package inquiry — Heart 2 Heart Somatics",
-        "body": "Hi Mariem,\n\nI’m interested in your Business Packages.\n\nCompany/Team:\nWhat you’re looking for (e.g., burnout prevention, business yoga, workshop, team building, training):\nPreferred format (on-site / online):\nLocation (if on-site):\nApprox. group size:\nPreferred timeframe:\n\nThank you!\n"
+        "body": "Hi Mariem,\n\nI'm interested in your Business Packages.\n\nCompany/Team:\nWhat you're looking for (e.g., burnout prevention, business yoga, workshop, team building, training):\nPreferred format (on-site / online):\nLocation (if on-site):\nApprox. group size:\nPreferred timeframe:\n\nThank you!\n"
       },
       "plans": {
         "bundles": {
@@ -196,7 +196,7 @@
         },
         "q3": {
           "q": "Online or in-person—which should I choose?",
-          "a": "Both can be deeply effective. In-person offers a dedicated studio space and direct support. Online is flexible and works well if you prefer your own environment. You’ll receive clear guidance either way, and we choose the format that best matches your goals and comfort."
+          "a": "Both can be deeply effective. In-person offers a dedicated studio space and direct support. Online is flexible and works well if you prefer your own environment. You'll receive clear guidance either way, and we choose the format that best matches your goals and comfort."
         },
         "q4": {
           "q": "How do packages work?",
@@ -204,11 +204,11 @@
         },
         "q5": {
           "q": "Is this therapy?",
-          "a": "Heart 2 Heart Somatics offers somatic support, coaching, and education—not medical or psychotherapeutic treatment. If you’re in acute crisis or need clinical care, we’ll recommend the right professional support. If you’re unsure, the free welcome session is a good first step."
+          "a": "Heart 2 Heart Somatics offers somatic support, coaching, and education—not medical or psychotherapeutic treatment. If you're in acute crisis or need clinical care, we'll recommend the right professional support. If you're unsure, the free welcome session is a good first step."
         },
         "q6": {
           "q": "What is your cancellation policy?",
-          "a": "Please reschedule as early as possible if something changes. For late cancellations, the session may be charged depending on the notice period. You’ll receive the exact policy when booking so everything is transparent."
+          "a": "Please reschedule as early as possible if something changes. For late cancellations, the session may be charged depending on the notice period. You'll receive the exact policy when booking so everything is transparent."
         }
       }
     }
@@ -260,13 +260,13 @@
       "trigger": "Imprint",
       "title": "Legal notice (Imprint)",
       "desc": "Provider information",
-      "body": "Provider information (Germany)\n\nHeart 2 Heart Somatics\nMariem Werhani\nMercedesstr. 3\n30453 Hannover\nGermany\n\nContact\nEmail: info@heart2heartsomatics.com\nPhone: [TELEFON]\n\nLegal form\nSole proprietor (Germany)\n\nVAT ID / Business ID (only if available)\nVAT ID: [IF AVAILABLE]\nBusiness ID: [IF AVAILABLE]\n\nConsumer dispute resolution (§ 36 VSBG)\nWe are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.\n\nNote\nThe EU ODR platform is discontinued since 20 July 2025."
+      "body": "Provider information (Germany)\n\nHeart 2 Heart Somatics\nMariem Werhani\nMercedesstr. 3\n30453 Hannover\nGermany\n\nContact\nEmail: info@heart2heartsomatics.com\nPhone: 01515-5351628\n\nLegal form\nSole proprietor (Germany)\n\nVAT ID / Business ID (only if available)\nVAT ID: [IF AVAILABLE]\nBusiness ID: [IF AVAILABLE]\n\nConsumer dispute resolution (§ 36 VSBG)\nWe are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.\n\nNote\nThe EU ODR platform is discontinued since 20 July 2025."
     },
     "privacy": {
       "trigger": "Privacy",
       "title": "Privacy policy",
       "desc": "Data protection information",
-      "body": "1. Controller\nMariem Werhani (Heart 2 Heart Somatics)\nMercedesstr. 3, 30453 Hannover, Germany\nEmail: info@heart2heartsomatics.com (subject: “Privacy”)\nPhone: [TELEFON]\n\n2. Summary\nThis is a static single-page website. We do not use analytics or advertising trackers.\n\n3. Hosting (GitHub Pages)\nThe site is delivered via GitHub Pages. When you access the site, technical connection data (e.g., IP address, device/browser data, time of access) is processed for delivery and security.\n\n4. Local storage (settings)\nDepending on your choices, the site stores language/theme/accessibility settings in your browser to provide the requested functionality.\n\n5. External links\nIf you open external links (e.g., Calendly or Google), the privacy policy of that provider applies.\n\nLast updated: 2026-02-15"
+      "body": "1. Controller\nMariem Werhani (Heart 2 Heart Somatics)\nMercedesstr. 3, 30453 Hannover, Germany\nEmail: info@heart2heartsomatics.com (subject: “Privacy”)\nPhone: 01515-5351628\n\n2. Summary\nThis is a static single-page website. We do not use analytics or advertising trackers.\n\n3. Hosting (GitHub Pages)\nThe site is delivered via GitHub Pages. When you access the site, technical connection data (e.g., IP address, device/browser data, time of access) is processed for delivery and security.\n\n4. Local storage (settings)\nDepending on your choices, the site stores language/theme/accessibility settings in your browser to provide the requested functionality.\n\n5. External links\nIf you open external links (e.g., Calendly or Google), the privacy policy of that provider applies.\n\nLast updated: 2026-02-15"
     },
     "accessibility": {
       "trigger": "Accessibility",
