@@ -99,9 +99,9 @@ export function HeroSection() {
                 {t("cta.bookCall")}
               </a>
             </Button>
-            <Button variant="outline" asChild>
+            {/* <Button variant="outline" asChild>
               <a href="#pricing">{t("cta.viewPricing")}</a>
-            </Button>
+            </Button> */}
           </div>
         </div>
 
