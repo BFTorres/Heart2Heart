@@ -84,10 +84,10 @@
           "description": "Achtsame Bewegung und Atem - für Stabilität, Beweglichkeit und innere Ruhe.",
           "details": "Eine Praxis aus Bewegung, Atem und Präsenz - ohne Druck und ohne Leistungsanspruch.\n\nYoga (Gruppe): unterstützende, körperbewusste Sequenzen für Stabilität, Beweglichkeit und Ruhe.\nMeditation (1:1): angeleitete Sessions, um den Geist zu sammeln, innere Klarheit zu stärken und Raum zu schaffen.\n\nAlles ist anpassbar - besonders passend, wenn du eine sanfte, verlässliche Praxis suchst, die dich dort abholt, wo du gerade bist.",
           "meta": {
-            "duration": "Yoga: 75 Minuten / Meditation: 30 und 60 Minuten",
-            "format": "Vor Ort (Studio))",
-            "group": "Yoga: Gruppe (min. 3 Personen, max. 7 Personen) / Meditation: 1:1",
-            "price": "Yoga: Ab €30 pro Person / Meditation: Ab €10 (30 Minuten) pro Person"
+            "duration": "Yoga: 75 Minuten",
+            "format": "Vor Ort (Studio) oder Online",
+            "group": "Yoga: Gruppe (min. 3 Personen, max. 7 Personen)",
+            "price": "Yoga: Ab €30 pro Person / €100 monatlich"
           }
         },
         "somatic-coaching": {

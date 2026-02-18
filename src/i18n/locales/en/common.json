@@ -85,10 +85,10 @@
           "description": "Mindful movement and breath—for stability, flexibility, and inner calm.",
           "details": "A practice that balances mindful movement, breath, and presence—without pressure or performance.\n\nYoga (group): a supportive, body-aware flow to build steadiness, mobility, and calm.\nMeditation (1:1): guided sessions to settle the mind, strengthen inner focus, and create space for clarity.\n\nAll sessions are adaptable—especially helpful if you want consistency, softness, and a practice that meets you where you are.",
           "meta": {
-            "duration": "Yoga: 75 minutes / Meditation: 30 and 60 minutes",
-            "format": "In person (studio)",
-            "group": "Yoga: Group (min. 3 people, max. 7 people) / Meditation: 1:1",
-            "price": "Yoga: From €30 per person / Meditation: From €10 per person (30 minutes)"
+            "duration": "Yoga: 75 minutes",
+            "format": "In person (studio) or Online",
+            "group": "Yoga: Group (min. 3 people, max. 7 people)",
+            "price": "Yoga: From €30 per person / €100 per month"
           }
         },
         "somatic-coaching": {
