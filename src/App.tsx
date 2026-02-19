@@ -13,6 +13,8 @@ import { PricingSection } from "@/components/sections/PricingSection"
 import { FAQSection } from "@/components/sections/FAQSection"
 import { useEffect } from "react"
 import { useTranslation } from "react-i18next"
+import { CoursesSectionMedia } from "@/components/sections/CoursesSectionMedia"
+
 
 export default function App() {
 
@@ -35,6 +37,7 @@ export default function App() {
         <HeroSection />
         <IntroSection />
         <CoursesSection />
+        <CoursesSectionMedia />
         <AboutSection />
         <TestimonialsSection />
         <PricingSection />
