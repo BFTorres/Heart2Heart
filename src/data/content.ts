@@ -31,7 +31,7 @@ export const SITE = {
     venueName: "Rossini GmbH",
     floor: "1. OG",
     // Choose ONE parking wording:
-    parkingHint: "Parken auf dem Rossini-Parkplatz möglich.",
+    /* parkingHint: "Parken auf dem Rossini-Parkplatz möglich.", */
     // or (more cautious):
     // parkingHint: "Parkmöglichkeiten am Rossini-Parkplatz (je nach Verfügbarkeit)."
   } as const,
