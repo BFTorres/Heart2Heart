@@ -13,7 +13,8 @@
     "joinNewsletter": "Get workshop updates",
     "readFullStory": "Read the full story",
     "freeWelcomeSession": "Book a free call",
-    "requestBusinessPackage": "Request a business package"
+    "requestBusinessPackage": "Request a business package",
+    "requestByEmail": "Request by email"
   },
   "nav": {
     "home": "Home",
@@ -73,6 +74,10 @@
     "courses": {
       "title": "Services",
       "subtitle": "A short overview of what's available. Tap “Learn more” for details.",
+      "serviceEmail": {
+        "subject": "Inquiry: {{service}} - Heart 2 Heart Somatics",
+        "body": "Hi Mariem,\n\nI'm interested in: {{service}}\n\nWhat I'm looking for:\nPreferred format (in person / online):\nPreferred timeframe:\nAnything you should know:\n\nThank you!\n"
+      },
       "metaLabels": {
         "duration": "Duration",
         "format": "Format",

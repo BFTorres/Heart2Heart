@@ -1,15 +1,10 @@
-import { useTranslation } from "react-i18next";
-import { X } from "lucide-react";
+import { useTranslation } from "react-i18next"
+import { X } from "lucide-react"
 
-import { Container } from "@/components/layout/Container";
-import {
-  Card,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { GoogleIcon } from "@/components/ui/google-icon";
+import { Container } from "@/components/layout/Container"
+import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { GoogleIcon } from "@/components/ui/google-icon"
 import {
   Dialog,
   DialogClose,
@@ -17,61 +12,73 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
-import { COURSES, SITE } from "@/data/content";
+} from "@/components/ui/dialog"
+import { COURSES, SITE } from "@/data/content"
 
 function isExternalUrl(url: string) {
-  return /^https?:\/\//i.test(url);
+  return /^https?:\/\//i.test(url)
 }
 
 function toStringSafe(value: unknown) {
-  if (value == null) return "";
-  return String(value);
+  if (value == null) return ""
+  return String(value)
+}
+
+function buildMailto(to: string, subject: string, body: string) {
+  const params = new URLSearchParams()
+  params.set("subject", subject)
+  params.set("body", body)
+  return `mailto:${to}?${params.toString()}`
 }
 
 export function CoursesSection() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <section id="courses" className="border-border bg-muted/40">
       <Container className="py-16">
-        <h2 className="text-2xl font-semibold tracking-tight">
-          {t("sections.courses.title")}
-        </h2>
-        <p className="mt-2 text-muted-foreground">
-          {t("sections.courses.subtitle")}
-        </p>
+        <h2 className="text-2xl font-semibold tracking-tight">{t("sections.courses.title")}</h2>
+        <p className="mt-2 text-muted-foreground">{t("sections.courses.subtitle")}</p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {COURSES.map(({ id, googleIcon }) => {
-            const base = `sections.courses.items.${id}`;
-            const titleKey = `${base}.title`;
-            const descKey = `${base}.description`;
-            const detailsKey = `${base}.details`;
+          {COURSES.map(({ id, googleIcon, action }) => {
+            const base = `sections.courses.items.${id}`
+            const titleKey = `${base}.title`
+            const descKey = `${base}.description`
+            const detailsKey = `${base}.details`
 
-            const durationKey = `${base}.meta.duration`;
-            const formatKey = `${base}.meta.format`;
-            const groupKey = `${base}.meta.group`;
-            const priceKey = `${base}.meta.price`;
+            const durationKey = `${base}.meta.duration`
+            const formatKey = `${base}.meta.format`
+            const groupKey = `${base}.meta.group`
+            const priceKey = `${base}.meta.price`
 
-            // NEW: array-based pricing
-            const priceLinesKey = `${base}.meta.priceLines`;
-            const priceLinesRaw = t(priceLinesKey, {
-              returnObjects: true,
-              defaultValue: [],
-            } as any);
+            // Array-based pricing (optional)
+            const priceLinesKey = `${base}.meta.priceLines`
+            const priceLinesRaw = t(priceLinesKey, { returnObjects: true, defaultValue: [] } as any)
             const priceLines = Array.isArray(priceLinesRaw)
-              ? (priceLinesRaw as string[]).map(toStringSafe).filter(Boolean)
-              : [];
+              ? (priceLinesRaw as unknown[]).map(toStringSafe).filter(Boolean)
+              : []
 
-            const isWorkshops = id === "trainings-and-workshops";
-            const primaryHref = isWorkshops
-              ? SITE.newsletterUrl
-              : SITE.calendlyUrl;
-            const primaryLabel = isWorkshops
-              ? t("cta.joinNewsletter")
-              : t("cta.bookNow");
-            const openInNewTab = isExternalUrl(primaryHref);
+            // Decide primary action per service
+            const serviceTitle = String(t(titleKey))
+            const emailSubject = String(t("sections.courses.serviceEmail.subject", { service: serviceTitle } as any))
+            const emailBody = String(t("sections.courses.serviceEmail.body", { service: serviceTitle } as any))
+
+            const primaryHref =
+              action.type === "newsletter"
+                ? SITE.newsletterUrl
+                : action.type === "calendly"
+                  ? action.url
+                  : buildMailto(SITE.contactEmail, emailSubject, emailBody)
+
+            const primaryLabel =
+              action.type === "newsletter"
+                ? t("cta.joinNewsletter")
+                : action.type === "calendly"
+                  ? t("cta.bookNow")
+                  : t("cta.requestByEmail")
+
+            const openInNewTab = isExternalUrl(primaryHref)
 
             return (
               <Dialog key={id}>
@@ -83,9 +90,7 @@ export function CoursesSection() {
                       </div>
 
                       <div className="space-y-1">
-                        <CardTitle className="text-base">
-                          {t(titleKey)}
-                        </CardTitle>
+                        <CardTitle className="text-base">{t(titleKey)}</CardTitle>
                         <CardDescription>{t(descKey)}</CardDescription>
                       </div>
                     </div>
@@ -106,12 +111,7 @@ export function CoursesSection() {
                       <div className="flex items-center justify-between gap-3">
                         <DialogTitle>{t(titleKey)}</DialogTitle>
                         <DialogClose asChild>
-                          <Button
-                            variant="ghost"
-                            size="icon"
-                            aria-label={t("common.close")}
-                            type="button"
-                          >
+                          <Button variant="ghost" size="icon" aria-label={t("common.close")} type="button">
                             <X className="size-4" />
                           </Button>
                         </DialogClose>
@@ -121,43 +121,26 @@ export function CoursesSection() {
 
                   <div className="max-h-[70vh] overflow-y-auto px-6 py-5">
                     <div className="space-y-5">
-                      <p className="whitespace-pre-line text-sm text-muted-foreground">
-                        {t(detailsKey)}
-                      </p>
+                      <p className="whitespace-pre-line text-sm text-muted-foreground">{t(detailsKey)}</p>
 
                       <dl className="grid gap-3 rounded-2xl border border-border bg-muted/30 p-4 text-sm">
                         <div className="flex items-start justify-between gap-4">
-                          <dt className="font-medium">
-                            {t("sections.courses.metaLabels.duration")}
-                          </dt>
-                          <dd className="text-muted-foreground text-right">
-                            {t(durationKey)}
-                          </dd>
+                          <dt className="font-medium">{t("sections.courses.metaLabels.duration")}</dt>
+                          <dd className="text-muted-foreground text-right">{t(durationKey)}</dd>
                         </div>
 
                         <div className="flex items-start justify-between gap-4">
-                          <dt className="font-medium">
-                            {t("sections.courses.metaLabels.format")}
-                          </dt>
-                          <dd className="text-muted-foreground text-right">
-                            {t(formatKey)}
-                          </dd>
+                          <dt className="font-medium">{t("sections.courses.metaLabels.format")}</dt>
+                          <dd className="text-muted-foreground text-right">{t(formatKey)}</dd>
                         </div>
 
                         <div className="flex items-start justify-between gap-4">
-                          <dt className="font-medium">
-                            {t("sections.courses.metaLabels.group")}
-                          </dt>
-                          <dd className="text-muted-foreground text-right whitespace-pre-line">
-                            {t(groupKey)}
-                          </dd>
+                          <dt className="font-medium">{t("sections.courses.metaLabels.group")}</dt>
+                          <dd className="text-muted-foreground text-right whitespace-pre-line">{t(groupKey)}</dd>
                         </div>
 
                         <div className="flex items-start justify-between gap-4">
-                          <dt className="font-medium">
-                            {t("sections.courses.metaLabels.price")}
-                          </dt>
-
+                          <dt className="font-medium">{t("sections.courses.metaLabels.price")}</dt>
                           <dd className="text-muted-foreground text-right">
                             {priceLines.length > 0 ? (
                               <ul className="space-y-1">
@@ -166,9 +149,7 @@ export function CoursesSection() {
                                 ))}
                               </ul>
                             ) : (
-                              <span className="whitespace-pre-line">
-                                {t(priceKey)}
-                              </span>
+                              <span className="whitespace-pre-line">{t(priceKey)}</span>
                             )}
                           </dd>
                         </div>
@@ -197,10 +178,10 @@ export function CoursesSection() {
                   </div>
                 </DialogContent>
               </Dialog>
-            );
+            )
           })}
         </div>
       </Container>
     </section>
-  );
+  )
 }

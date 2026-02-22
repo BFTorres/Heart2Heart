@@ -13,7 +13,8 @@
     "joinNewsletter": "Workshop-Updates erhalten",
     "readFullStory": "Die ganze Geschichte lesen",
     "freeWelcomeSession": "Kostenloses Kennenlerngespräch",
-    "requestBusinessPackage": "Business-Angebot anfragen"
+    "requestBusinessPackage": "Business-Angebot anfragen",
+    "requestByEmail": "Per E-Mail anfragen"
   },
   "nav": {
     "home": "Start",
@@ -73,6 +74,10 @@
     "courses": {
       "title": "Angebote",
       "subtitle": "Ein kurzer Überblick. Tippe auf „Mehr erfahren“ für Details.",
+      "serviceEmail": {
+        "subject": "Anfrage: {{service}} - Heart 2 Heart Somatics",
+        "body": "Hallo Mariem,\n\nich interessiere mich für: {{service}}\n\nWorum geht es bei mir:\nBevorzugtes Format (vor Ort / online):\nGewünschter Zeitraum:\nWichtige Infos vorab:\n\nVielen Dank!\n"
+      },
       "metaLabels": {
         "duration": "Dauer",
         "format": "Format",

@@ -1,10 +1,25 @@
+// src/data/content.ts
+
 export const SITE = {
   brand: "Heart 2 Heart Somatics",
-  calendlyUrl: "https://calendly.com/heart2heartsomatics/", 
-/*   calendlyFree: */
+
+  // Multiple Calendly targets (new)
+  calendly: {
+    freeCall: "https://calendly.com/heart2heartsomatics/30min",
+    soundHealingSession:
+      "https://calendly.com/heart2heartsomatics/sound-healing-session",
+    ifsSession:
+      "https://calendly.com/heart2heartsomatics/ifs-therapy-session-internal-family-system",
+  },
+
+  // Backwards compatible (optional): keep old name so nothing breaks elsewhere.
+  // You can delete later once all usages are migrated.
+  calendlyUrl: "https://calendly.com/heart2heartsomatics/30min",
+
   newsletterUrl:
     (import.meta.env.VITE_NEWSLETTER_URL as string) ??
     "https://de72348c.sibforms.com/serve/MUIFAF21N5rXe68vEBCjdWHQW2HCUPWB_GnTg85IT9ZIXr_h6W24Zeayhm6kpnQHYLxWDlEw5h_q5M56MCOH1lBb-es60tkHPEqRN8MxRrkVvcb7-wrzq3yKnGuBehDnO6EStoyZW0Af3W1V2BEFppDCFfpZyZc3jZSqN1uVjCrBdi78Yj4ZLZMhjp7IVaowz-f23KYKVpphKNi3EA==",
+
   contactEmail:
     (import.meta.env.VITE_CONTACT_EMAIL as string) ??
     "info@heart2heartsomatics.com",
@@ -15,23 +30,17 @@ export const SITE = {
     postalCity: "30453 Hannover",
     country: "Germany",
 
-    // Coordinates as before
     lat: 52.34777,
     lng: 9.709247,
 
-    // UX wayfinding
     venueName: "Rossini GmbH",
     floor: "1. OG",
-    // Choose ONE parking wording:
-    /* parkingHint: "Parken auf dem Rossini-Parkplatz möglich.", */
-    // or (more cautious):
-    // parkingHint: "Parkmöglichkeiten am Rossini-Parkplatz (je nach Verfügbarkeit)."
+    // parkingHint: "Parkmöglichkeiten am Rossini-Parkplatz (je nach Verfügbarkeit).",
   } as const,
 };
 
 export const NAV = [
   { id: "home", labelKey: "nav.home" },
-  /* { id: "intro", labelKey: "nav.intro" }, */
   { id: "courses", labelKey: "nav.courses" },
   { id: "about", labelKey: "nav.about" },
   { id: "voices", labelKey: "nav.voices" },
@@ -39,57 +48,49 @@ export const NAV = [
   { id: "faq", labelKey: "nav.faq" },
 ] as const;
 
-/* export const COURSES = [
+type CourseAction =
+  | { type: "calendly"; url: string }
+  | { type: "email" }
+  | { type: "newsletter" };
+
+export const COURSES = [
   {
     id: "sound-healing",
-    titleKey: "sections.courses.items.sound-healing.title",
-    descriptionKey: "sections.courses.items.sound-healing.description",
-    Icon: Waves,
+    googleIcon: "spatial_audio",
+    action: {
+      type: "calendly",
+      url: SITE.calendly.soundHealingSession,
+    } as CourseAction,
   },
   {
     id: "sound-bath",
-    titleKey: "sections.courses.items.sound-bath.title",
-    descriptionKey: "sections.courses.items.sound-bath.description",
-    Icon: Wind,
+    googleIcon: "spatial_tracking",
+    action: { type: "email" } as CourseAction,
   },
   {
     id: "yoga-and-meditation",
-    titleKey: "sections.courses.items.yoga-and-meditation.title",
-    descriptionKey: "sections.courses.items.yoga-and-meditation.description",
-    Icon: HeartHandshake,
+    googleIcon: "spa",
+    action: { type: "email" } as CourseAction,
   },
   {
     id: "somatic-coaching",
-    titleKey: "sections.courses.items.somatic-coaching.title",
-    descriptionKey: "sections.courses.items.somatic-coaching.description",
-    Icon: Sparkles,
+    googleIcon: "accessibility_new",
+    // As requested: same link as sound healing session
+    action: {
+      type: "calendly",
+      url: SITE.calendly.soundHealingSession,
+    } as CourseAction,
   },
   {
     id: "trainings-and-workshops",
-    titleKey: "sections.courses.items.trainings-and-workshops.title",
-    descriptionKey: "sections.courses.items.trainings-and-workshops.description",
-    Icon: Flower,
+    googleIcon: "group",
+    action: { type: "newsletter" } as CourseAction,
   },
   {
     id: "ifs",
-    titleKey: "sections.courses.items.ifs.title",
-    descriptionKey: "sections.courses.items.ifs.description",
-    Icon: Flower,
-  }
-] as const */
-
-/**
- * Courses are keyed by id.
- * Text is fully controlled via i18n under:
- * sections.courses.items.<id>.*
- */
-export const COURSES = [
-  { id: "sound-healing", googleIcon: "spatial_audio" },
-  { id: "sound-bath", googleIcon: "spatial_tracking" },
-  { id: "yoga-and-meditation", googleIcon: "spa" },
-  { id: "somatic-coaching", googleIcon: "accessibility_new" },
-  { id: "trainings-and-workshops", googleIcon: "group" },
-  { id: "ifs", googleIcon: "cognition" },
+    googleIcon: "cognition",
+    action: { type: "calendly", url: SITE.calendly.ifsSession } as CourseAction,
+  },
 ] as const;
 
 export const TESTIMONIALS = [
@@ -140,7 +141,7 @@ export const TESTIMONIALS = [
     quoteKey: "sections.voices.items.t8.quote",
     nameKey: "sections.voices.items.t8.name",
     roleKey: "sections.voices.items.t8.role",
-  }
+  },
 ] as const;
 
 export const PRICING = [
@@ -152,7 +153,6 @@ export const PRICING = [
       "sections.pricing.plans.bundles.bullets.b1",
       "sections.pricing.plans.bundles.bullets.b2",
       "sections.pricing.plans.bundles.bullets.b3",
-      /*       "sections.pricing.plans.bundles.bullets.b4", */
     ],
     ctaLabelKey: "cta.freeWelcomeSession",
     ctaType: "calendly",

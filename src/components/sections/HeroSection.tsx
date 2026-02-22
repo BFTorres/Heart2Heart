@@ -8,7 +8,6 @@ import { SITE } from "@/data/content";
 export function HeroSection() {
   const { t } = useTranslation();
 
-  // Editable via i18n JSON (local or remote)
   const ratingValue = t("sections.hero.google.ratingValue");
   const reviewCountValue = t("sections.hero.google.reviewCountValue");
   const reviewsUrl = t("sections.hero.google.url");
@@ -26,9 +25,8 @@ export function HeroSection() {
   const remainder = Math.max(0, Math.min(5, ratingNum)) - fullStars;
 
   const starOpacity = (index: number) => {
-    // index: 1..5
     if (index <= fullStars) return "opacity-100";
-    if (index === fullStars + 1 && remainder >= 0.25) return "opacity-50"; // “half-ish”
+    if (index === fullStars + 1 && remainder >= 0.25) return "opacity-50";
     return "opacity-20";
   };
 
@@ -84,24 +82,19 @@ export function HeroSection() {
             </div>
           )}
 
-          {/* Your existing translated hero keys (as you already started doing) */}
           <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             {t("sections.hero.title")}
           </h1>
-
           <p className="text-base text-muted-foreground">
             {t("sections.hero.body")}
           </p>
 
           <div className="flex flex-col gap-2 sm:flex-row">
             <Button asChild>
-              <a href={SITE.calendlyUrl} target="_blank" rel="noreferrer">
+              <a href={SITE.calendly.freeCall} target="_blank" rel="noreferrer">
                 {t("cta.bookCall")}
               </a>
             </Button>
-            {/* <Button variant="outline" asChild>
-              <a href="#pricing">{t("cta.viewPricing")}</a>
-            </Button> */}
           </div>
         </div>
 
