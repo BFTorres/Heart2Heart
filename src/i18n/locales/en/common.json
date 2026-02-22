@@ -12,7 +12,7 @@
     "bookNow": "Book now",
     "joinNewsletter": "Get workshop updates",
     "readFullStory": "Read the full story",
-    "freeWelcomeSession": "Free welcome session",
+    "freeWelcomeSession": "Let's talk",
     "requestBusinessPackage": "Request a business package"
   },
   "nav": {
@@ -30,10 +30,8 @@
   "sections": {
     "location": {
       "labels": {
-        "venue": "Location",
-        "floor": "Floor",
-        "parking": "Parking",
-        "venueLabel": "Venue:",
+        "venueLabel": "Venue",
+        "parkingLabel": "Parking",
         "floorLabel": "Floor:"
       },
       "title": "Location",
@@ -66,7 +64,7 @@
       "p4": "So your focus improves. Your sleep gets better. And you get your energy back. By changing the pattern at its root."
     },
     "courses": {
-      "title": "Healing Options",
+      "title": "Services",
       "subtitle": "A short overview of what's available. Tap “Learn more” for details.",
       "metaLabels": {
         "duration": "Duration",
@@ -160,40 +158,40 @@
           "country": "DE"
         },
         "t2": {
+          "quote": "Mariem’s coaching helped me uncover limiting beliefs and provided practical tools that now guide my daily life. Her patience and intuitive guidance pushed me beyond my comfort zone into real growth.Thank you Mariem. You are awesome!",
+          "name": "F. Joseph",
+          "role": "Somatic Coaching",
+          "country": "LC"
+        },
+        "t3": {
           "quote": "Working with Mariem has been deeply transformative - she holds space with rare warmth, compassion, and intuitive wisdom. Her blend of IFS and somatic work helped me reconnect with myself in profound ways. If you're looking for someone who genuinely cares and has the wisdom and skills to support your healing, i can't recommend Mariem highly enough!",
           "name": "Omnia",
           "role": "Internal Family System (IFS)",
           "country": "AE"
         },
-        "t3": {
-          "quote": "Mariem's sound bath during the lunar eclipse was a powerful ritual that left my body and soul vibrating in harmony. I felt realignment, clarity, and deep feminine connection return to me.",
-          "name": "Monika",
-          "role": "Sound bath",
-          "country": "DE"
-        },
         "t4": {
-          "quote": "Being held in Mariem's space is a true wonder , each session helps me connect more deeply with my inner and outer worlds. I always leave feeling inspired, renewed, and full of insight.",
-          "name": "Rena",
-          "role": "Somatic Coaching",
-          "country": "GB"
-        },
-        "t5": {
           "quote": "I felt deeply supported by the diverse, rich group Mariem brought together, and by the care put into every detail of the retreat. Her planning, hospitality, and presence made me feel safe and seen.",
           "name": "Pid'or",
           "role": "Retreat",
           "country": "GB"
         },
-        "t6": {
-          "quote": "I felt deeply supported by the diverse, rich group Mariem brought together, and by the care put into every detail of the retreat. Her planning, hospitality, and presence made me feel safe and seen.",
-          "name": "F. Joseph",
-          "role": "Somatic Coaching",
-          "country": "LC"
+        "t5": {
+          "quote": "Mariem's sound bath during the lunar eclipse was a powerful ritual that left my body and soul vibrating in harmony. I felt realignment, clarity, and deep feminine connection return to me.",
+          "name": "Monika",
+          "role": "Sound bath",
+          "country": "DE"
         },
-        "t7": {
+        "t6": {
           "quote": "Yoga with Mariem is simply beautiful. You immediately feel at ease with her; everything is relaxed and natural. She has a very pleasant manner and creates an atmosphere where it's easy to switch off. The classes are clear, flowing, and yet profound. You immediately sense that Mariem has a wealth of experience and that yoga is truly a part of her life. The fact that she learned and practiced yoga in Nepal gives her classes a special depth.I always leave the class with a wonderful feeling. Highly recommended.",
           "name": "Rebecca Cappucci",
           "role": "Yoga",
           "country": "IT"
+        },
+        "t7": {
+          "quote": "Being held in Mariem's space is a true wonder , each session helps me connect more deeply with my inner and outer worlds. I always leave feeling inspired, renewed, and full of insight.",
+          "name": "Rena",
+          "role": "Somatic Coaching",
+          "country": "GB"
         }
       }
     },
@@ -208,12 +206,12 @@
         "bundles": {
           "title": "Bundles / Packages",
           "bullets": {
-            "b1": "Build your own package—based on what you need right now.",
-            "b2": "Choose from Sound Healing, Yoga & Meditation, Somatic Coaching, and IFS.",
-            "b3": "A supportive structure with clear steps and gentle pacing.",
-            "b4": "Start with a free welcome session to clarify goals and next steps."
+            "b1": "A customized path created just for you.",
+            "b2": "A carefully selected set of skills and tools.",
+            "b3": "Guidance toward lasting transformation.",
+            "b4": ""
           },
-          "hint": "Click the button below to book your free welcome session. After the call, we’ll build your personal package together based on your needs."
+          "hint": "Click the button below to book your free welcome session. After the call, we'll build your personal package together based on your needs."
         },
         "business": {
           "title": "Business Packages",
@@ -224,7 +222,7 @@
             "b4": "Team building experiences with embodied practices.",
             "b5": "Custom plan and quote based on your goals, timeframe, and group size."
           },
-          "hint": "Click the button below to email Mariem. You’ll receive a tailored proposal based on your team goals, timeframe, and group size."
+          "hint": "Click the button below to email me. You’ll receive a tailored proposal based on your team goals, timeframe, and group size."
         }
       }
     },

@@ -12,8 +12,8 @@ import { TestimonialsSection } from "@/components/sections/TestimonialsSection"
 import { PricingSection } from "@/components/sections/PricingSection"
 import { FAQSection } from "@/components/sections/FAQSection"
 import { useEffect } from "react"
-import { useTranslation } from "react-i18next"
-import { CoursesSectionMedia } from "@/components/sections/CoursesSectionMedia"
+import { useTranslation } from "react-i18next"/* 
+import { CoursesSectionMedia } from "@/components/sections/CoursesSectionMedia" */
 import { LocationSection } from "@/components/sections/LocationSection"
 
 

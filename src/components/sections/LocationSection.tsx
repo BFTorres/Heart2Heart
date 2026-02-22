@@ -19,28 +19,22 @@ export function LocationSection() {
   const { t } = useTranslation()
   const theme = useAccessibilityStore((s) => s.theme)
 
-  // Map only supports light/dark themes; map high-contrast to the closest match.
+  // Your theme keys are: light | dark | contrast-light | contrast
   const mapTheme = theme === "dark" || theme === "contrast-dark" ? "dark" : "light"
 
   const destination = useMemo(() => {
     const { addressLine1, postalCity, country, venueName } = SITE.location
-    // Keep destination clean; optionally prepend venue name to help matching.
     return venueName
       ? `${venueName}, ${addressLine1}, ${postalCity}, ${country}`
       : `${addressLine1}, ${postalCity}, ${country}`
   }, [])
 
-  const {
-    lat,
-    lng,
-    name,
-    addressLine1,
-    postalCity,
-    venueName,
-    floor,
-    arrivalHint,
-    parkingHint,
-  } = SITE.location
+  const { lat, lng, name, addressLine1, postalCity, venueName, floor, parkingHint } = SITE.location
+
+  // Force label strings (prevents typed i18n returning non-string in some setups)
+  const venueLabel = String(t("sections.location.venueLabel", { defaultValue: "Ort" } as any))
+  const floorLabel = String(t("sections.location.floorLabel", { defaultValue: "Etage" } as any))
+  const parkingLabel = String(t("sections.location.parkingLabel", { defaultValue: "Parken" } as any))
 
   return (
     <section id="location" className="border-border bg-background">
@@ -57,9 +51,7 @@ export function LocationSection() {
                 theme={mapTheme}
                 center={[lng, lat]}
                 zoom={14.5}
-                // UX: prevents “scroll hijack” while reading the page
                 scrollZoom={false}
-                // keep interactions available
                 dragPan
                 doubleClickZoom
                 touchZoomRotate
@@ -92,10 +84,6 @@ export function LocationSection() {
                         <br />
                         {postalCity}
                       </p>
-
-                      {arrivalHint ? (
-                        <p className="mt-3 text-xs text-muted-foreground">{arrivalHint}</p>
-                      ) : null}
 
                       {parkingHint ? (
                         <p className="mt-2 text-xs text-muted-foreground">{parkingHint}</p>
@@ -130,25 +118,30 @@ export function LocationSection() {
                   {postalCity}
                 </p>
 
-                {(venueName || floor) && (
-                  <div className="mt-3 text-sm text-muted-foreground">
+                {(venueName || floor || parkingHint) && (
+                  <div className="mt-3 grid gap-2 text-sm">
                     {venueName ? (
-                      <p>
-                        <span className="font-medium text-foreground">{t("sections.location.venueLabel")}</span>{" "}
-                        {venueName}
-                      </p>
+                      <div className="flex items-start justify-between gap-4">
+                        <span className="text-muted-foreground">{venueLabel}</span>
+                        <span className="text-right">{venueName}</span>
+                      </div>
                     ) : null}
+
                     {floor ? (
-                      <p>
-                        <span className="font-medium text-foreground">{t("sections.location.floorLabel")}</span>{" "}
-                        {floor}
-                      </p>
+                      <div className="flex items-start justify-between gap-4">
+                        <span className="text-muted-foreground">{floorLabel}</span>
+                        <span className="text-right">{floor}</span>
+                      </div>
+                    ) : null}
+
+                    {parkingHint ? (
+                      <div className="flex items-start justify-between gap-4">
+                        <span className="text-muted-foreground">{parkingLabel}</span>
+                        <span className="text-right">{parkingHint}</span>
+                      </div>
                     ) : null}
                   </div>
                 )}
-
-                {arrivalHint ? <p className="mt-3 text-sm text-muted-foreground">{arrivalHint}</p> : null}
-                {parkingHint ? <p className="mt-2 text-sm text-muted-foreground">{parkingHint}</p> : null}
               </div>
 
               <div className="mt-4 flex justify-end">

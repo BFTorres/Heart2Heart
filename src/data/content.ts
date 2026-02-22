@@ -154,7 +154,7 @@ export const PRICING = [
       "sections.pricing.plans.bundles.bullets.b1",
       "sections.pricing.plans.bundles.bullets.b2",
       "sections.pricing.plans.bundles.bullets.b3",
-      "sections.pricing.plans.bundles.bullets.b4",
+/*       "sections.pricing.plans.bundles.bullets.b4", */
     ],
     ctaLabelKey: "cta.freeWelcomeSession",
     ctaType: "calendly",

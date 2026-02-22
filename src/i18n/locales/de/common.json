@@ -29,11 +29,9 @@
   "sections": {
     "location": {
       "labels": {
-        "venue": "Ort",
-        "floor": "Etage",
-        "parking": "Parken",
-        "venueLabel": "Ort:",
-        "floorLabel": "Etage:"
+    "venueLabel": "Ort",
+    "floorLabel": "Etage",
+    "parkingLabel": "Parken"
       },
       "title": "Standort",
       "subtitle": "Finde das Studio in Hannover und öffne bei Bedarf die Route.",
@@ -65,7 +63,7 @@
       "p4": "Ob du gerade viel trägst, in Veränderung steckst oder dir einfach mehr Verbindung zu dir selbst wünschst: Du bist willkommen, so wie du bist."
     },
     "courses": {
-      "title": "Heilungsmethoden",
+      "title": "Angebote",
       "subtitle": "Ein kurzer Überblick. Tippe auf „Mehr erfahren“ für Details.",
       "metaLabels": {
         "duration": "Dauer",
@@ -149,7 +147,7 @@
       "imageAlt": "Porträtähnliches Bild für persönlichen Weg und Ruhe"
     },
     "voices": {
-      "title": "Stimmen, die vertrauen",
+      "title": "Kundenstimmen",
       "subtitle": "Kurze Erfahrungsberichte von Klienten.",
       "items": {
         "t1": {
