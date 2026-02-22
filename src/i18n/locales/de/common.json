@@ -49,7 +49,7 @@
       "imageAlt": "Abstrakte Illustration",
       "google": {
         "ratingValue": "5",
-        "reviewCountValue": "5",
+        "reviewCountValue": "6",
         "url": "https://www.google.com/maps/search/?api=1&query=Heart%202%20Heart%20Somatics%2C%20Mercedesstra%C3%9Fe%203%2C%2030453%20Hannover",
         "text": "{{rating}} auf Google ({{count}} Rezensionen)",
         "linkLabel": "Rezensionen lesen",
@@ -61,10 +61,10 @@
       "p1": "Für Menschen, die viel grübeln, sehr sensibel sind oder sich dauerhaft gestresst und mental überladen fühlen. Wenn mentaler Stress zum Normalzustand wird, zahlt der Körper den Preis.",
       "p2": "Wenn Entspannen sich unmöglich anfühlt.\n\n",
       "p3": "Wenn du das Grübeln nicht stoppen kannst.",
-      "p4": "Wenn deine Gedanken wie vernebelt sind und dein Körper ständig unter Spannung steht – ein Druck, an den du dich gewöhnt hast.",
-      "p5": "Irgendwann wurde Anspannung zu deinem Ausgangszustand – und dein Körper hat sich an dauerhafte Aktivierung angepasst.\n\nAber das ist nicht dein natürlicher Zustand, und es muss nicht so bleiben.",
-      "p6": "Durch somatisches Yoga, Coaching und Klangheilung arbeiten wir auf mehreren Ebenen dort, wo Stressmuster gespeichert sind – nicht nur im Gespräch.",
-      "p7": "So verbessert sich dein Fokus. Du schläfst besser. Und du bekommst deine Energie zurück – indem wir das Muster an der Wurzel verändern."
+      "p4": "Wenn deine Gedanken wie vernebelt sind und dein Körper ständig unter Spannung steht - ein Druck, an den du dich gewöhnt hast.",
+      "p5": "Irgendwann wurde Anspannung zu deinem Ausgangszustand - und dein Körper hat sich an dauerhafte Aktivierung angepasst.\n\nAber das ist nicht dein natürlicher Zustand, und es muss nicht so bleiben.",
+      "p6": "Durch somatisches Yoga, Coaching und Klangheilung arbeiten wir auf mehreren Ebenen dort, wo Stressmuster gespeichert sind - nicht nur im Gespräch.",
+      "p7": "So verbessert sich dein Fokus. Du schläfst besser. Und du bekommst deine Energie zurück - indem wir das Muster an der Wurzel verändern."
     },
     "courses": {
       "title": "Angebote",
@@ -205,7 +205,7 @@
       "title": "Pakete",
       "subtitle": "Alles ist auf deine Bedürfnisse abgestimmt. Wir entwickeln dein Paket gemeinsam - basierend auf deinen Zielen, deinem Zeitplan und einem Tempo, das sich richtig anfühlt. Immer mit Respekt für deinen aktuellen Lebenskontext.",
       "businessEmail": {
-        "subject": "Anfrage Business-Paket — Heart 2 Heart Somatics",
+        "subject": "Anfrage Business-Paket - Heart 2 Heart Somatics",
         "body": "Hallo Mariem,\n\nich interessiere mich für deine Business-Pakete.\n\nUnternehmen/Team:\nWorum geht es (z. B. Burnout-Prävention, Business Yoga, Workshop, Teambuilding, Training):\nBevorzugtes Format (vor Ort / online):\nOrt (falls vor Ort):\nUngefähre Gruppengröße:\nGewünschter Zeitraum:\n\nVielen Dank!\n"
       },
       "plans": {

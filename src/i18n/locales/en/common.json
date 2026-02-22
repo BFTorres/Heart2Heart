@@ -49,7 +49,7 @@
       "imageAlt": "Abstract illustration",
       "google": {
         "ratingValue": "5",
-        "reviewCountValue": "5",
+        "reviewCountValue": "6",
         "url": "https://www.google.com/maps/search/?api=1&query=Heart%202%20Heart%20Somatics%2C%20Mercedesstra%C3%9Fe%203%2C%2030453%20Hannover",
         "text": "{{rating}} on Google ({{count}} reviews)",
         "linkLabel": "Read reviews",
@@ -101,7 +101,7 @@
         "somatic-coaching": {
           "title": "Somatic Coaching 1:1",
           "description": "For people who feel constantly stressed, overwhelmed, or stuck. We work with your body, not only your thoughts, to create real, lasting change.",
-          "details": "A body-based work focused on embodied awareness. Instead of analyzing only your story and your thoughts, we integrate also what is happening in your body right now.\n\nWhat you gain:\n\n- Practical tools to regulate stress\n\n- Less reactivity, more clarity\n\n- A stronger sense of inner stability\n\n- Sustainable coping skills between sessions",
+          "details": "A body-based work focused on embodied awareness. Instead of analyzing only your story and your thoughts, we integrate also what is happening in your body right now.\n\nWhat you gain:\n\n- Practical tools to regulate stress\n\n- Less reactivity, more clarity\n\n- A stronger sense of inner stability\n\n- Sustainable coping skills between sessions",
           "meta": {
             "duration": "60 minutes",
             "format": "In person (studio)",
@@ -150,7 +150,7 @@
     "about": {
       "title": "My Journey",
       "summary": "My healing didn't happen all at once.\n\nIt unfolded step by step, across time, places, and seasons of my life.",
-      "body": "I left Tunisia at 17 and moved to Italy to study medicine. I worked and studied at the same time. For years, I lived in survival mode. I burned out more than once. I kept going anyway. Italy was a chapter of endurance, there I learned how to survive. When I finally moved to Germany, the survival stopped and  I discovered I was carrying Complex PTSD with dissociative disorder. And that's when everything I had been holding in for years began to surface. And what came up at first was emotional meltdown and later emotional breakdown ,patterns I didn't understand yet.\n\nYears later i moved to Dubai. There I was diagnosed with generalized anxiety disorder and my therapist identified me as a highly sensitive person. I started therapy, and it helped but the real turning point though came one year later in the Netherlands. That´s where, I stepped into personal development trainings and discovered embodiment practices.I still remember the first tears of joy, the first time i didn´t feel dissociated from my body.\n\nI felt alive, i felt fully present, i felt at home within. That was the moment I realized: My body had been speaking all along. I just hadn't learned how to listen yet. Learning to listen changed everything.\n\nWhat started as a journey to heal myself slowly became something more. I trained in somatic coaching in UK. I studied Internal Family Systems in Jordan. I continued with yoga, sound healing, and Reiki in Nepal. In Nepal, during a three-day silent fasting retreat in a mountain temple, something became clear in that stillness.\n\nDuring the meditation, The name came to me -Heart to Heart Somatics. I knew then that i wanted to hold space for others to come home to themselves. Today, my work is from my heart to yours. It comes from lived experience. Because I know what it means to survive. I know how to feels to come home. And I know what it takes to finally feel safe in your own body.",
+      "body": "I left Tunisia at 17 and moved to Italy to study medicine. I worked and studied at the same time. For years, I lived in survival mode. I burned out more than once. I kept going anyway. Italy was a chapter of endurance, there I learned how to survive. When I finally moved to Germany, the survival stopped and I discovered I was carrying Complex PTSD with dissociative disorder. And that's when everything I had been holding in for years began to surface. And what came up at first was emotional meltdown and later emotional breakdown ,patterns I didn't understand yet.\n\nYears later i moved to Dubai. There I was diagnosed with generalized anxiety disorder and my therapist identified me as a highly sensitive person. I started therapy, and it helped but the real turning point though came one year later in the Netherlands. That´s where, I stepped into personal development trainings and discovered embodiment practices.I still remember the first tears of joy, the first time i didn´t feel dissociated from my body.\n\nI felt alive, i felt fully present, i felt at home within. That was the moment I realized: My body had been speaking all along. I just hadn't learned how to listen yet. Learning to listen changed everything.\n\nWhat started as a journey to heal myself slowly became something more. I trained in somatic coaching in UK. I studied Internal Family Systems in Jordan. I continued with yoga, sound healing, and Reiki in Nepal. In Nepal, during a three-day silent fasting retreat in a mountain temple, something became clear in that stillness.\n\nDuring the meditation, The name came to me -Heart to Heart Somatics. I knew then that i wanted to hold space for others to come home to themselves. Today, my work is from my heart to yours. It comes from lived experience. Because I know what it means to survive. I know how to feels to come home. And I know what it takes to finally feel safe in your own body.",
       "imageAlt": "Portrait-style image representing personal growth and calm"
     },
     "voices": {
@@ -198,6 +198,12 @@
           "name": "Rena",
           "role": "Somatic Coaching",
           "country": "GB"
+        },
+        "t8": {
+          "quote": "I've been to sound bowl meditation twice, and I was absolutely thrilled both times. Both times, I experienced immediate physical relaxation. The sounds resonate throughout the entire body, creating a wonderful feeling of well-being. The atmosphere is very pleasant and warm. Mariem is very empathetic and trustworthy during the session. I would gladly do it again.",
+          "name": "Silke B.",
+          "role": "Sound Healing",
+          "country": "DE"
         }
       }
     },
@@ -205,7 +211,7 @@
       "title": "Packages",
       "subtitle": "Everything is tailored to your needs. We build your package together - based on your goals, schedule, and a pace that feels right for you. Always respecting where you are in life.",
       "businessEmail": {
-        "subject": "Business package inquiry — Heart 2 Heart Somatics",
+        "subject": "Business package inquiry - Heart 2 Heart Somatics",
         "body": "Hi Mariem,\n\nI'm interested in your Business Packages.\n\nCompany/Team:\nWhat you're looking for (e.g., burnout prevention, business yoga, workshop, team building, training):\nPreferred format (on-site / online):\nLocation (if on-site):\nApprox. group size:\nPreferred timeframe:\n\nThank you!\n"
       },
       "plans": {
@@ -238,23 +244,23 @@
       "items": {
         "q1": {
           "q": "What happens in a session?",
-          "a": "We start with a short check-in and an intention for the session. Then we move into a guided practice (e.g., somatic grounding, breath, gentle movement, sound). We close with integration—so you leave with clarity, a calmer baseline, and simple next steps you can take into daily life."
+          "a": "We begin with a short check-in to understand where you are and what feels most present that day. From there, we move into a brief somatic grounding to settle your nervous system and create safety.\n\nThe core of the session then unfolds based on your chosen modality , whether somatic coaching, Internal Family Systems, sound healing, or yoga. We close with integration, so what shifts in the session can translate into your daily life - along with clear, supportive next steps until we meet again."
         },
         "q2": {
           "q": "Do I need experience with yoga, meditation, or somatics?",
-          "a": "No. Everything is beginner-friendly and adaptable. The focus is on body awareness and safety—not performance. You can always choose smaller, slower steps."
+          "a": "No. Everything is beginner-friendly and adaptable. The focus is on body awareness and not achievement. We move at a pace that feels right for your body."
         },
         "q3": {
-          "q": "Online or in-person—which should I choose?",
+          "q": "Online or in-person - which should I choose?",
           "a": "Both can be deeply effective. In-person offers a dedicated studio space and direct support. Online is flexible and works well if you prefer your own environment. You'll receive clear guidance either way, and we choose the format that best matches your goals and comfort."
         },
         "q4": {
           "q": "How do packages work?",
-          "a": "Packages are custom—built around your needs, your schedule, and what feels supportive. After a free welcome session, we recommend a rhythm (e.g., weekly, biweekly) and combine modalities that fit you. You can adjust anytime as your needs change."
+          "a": "Packages are custom-built around your needs, your schedule, and what feels supportive. After a free welcome session, we recommend a rhythm (e.g., weekly, biweekly) and combine modalities that fit you. You can adjust anytime as your needs change."
         },
         "q5": {
           "q": "Is this therapy?",
-          "a": "Heart 2 Heart Somatics offers somatic support, coaching, and education—not medical or psychotherapeutic treatment. If you're in acute crisis or need clinical care, we'll recommend the right professional support. If you're unsure, the free welcome session is a good first step."
+          "a": "Heart 2 Heart Somatics offers somatic support, coaching, and education-not medical or psychotherapeutic treatment. If you're in acute crisis or need clinical care, we'll recommend the right professional support. If you're unsure, the free welcome session is a good first step."
         },
         "q6": {
           "q": "What is your cancellation policy?",
@@ -262,7 +268,7 @@
         },
         "q7": {
           "q": "Is parking available?",
-          "a": "Yes—parking is available at the Rossini parking lot (subject to availability)."
+          "a": "Yes-parking is available at the Rossini parking lot (subject to availability)."
         }
       }
     }

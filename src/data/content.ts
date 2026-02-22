@@ -134,6 +134,12 @@ export const TESTIMONIALS = [
     nameKey: "sections.voices.items.t7.name",
     roleKey: "sections.voices.items.t7.role",
   },
+  {
+    id: "t8",
+    quoteKey: "sections.voices.items.t8.quote",
+    nameKey: "sections.voices.items.t8.name",
+    roleKey: "sections.voices.items.t8.role",
+  }
 ] as const;
 
 export const PRICING = [
