@@ -28,6 +28,13 @@
   },
   "sections": {
     "location": {
+      "labels": {
+        "venue": "Ort",
+        "floor": "Etage",
+        "parking": "Parken",
+        "venueLabel": "Ort:",
+        "floorLabel": "Etage:"
+      },
       "title": "Standort",
       "subtitle": "Finde das Studio in Hannover und öffne bei Bedarf die Route.",
       "cardTitle": "Studio besuchen",
@@ -180,6 +187,12 @@
           "name": "F. Joseph",
           "role": "Somatisches Coaching",
           "country": "LC"
+        },
+        "t7": {
+          "quote": "Yoga mit Mariem ist einfach wunderschön. Man fühlt sich bei ihr sofort wohl – alles ist entspannt und natürlich. Sie hat eine sehr angenehme Art und schafft eine Atmosphäre, in der man leicht abschalten kann. Die Stunden sind klar aufgebaut, fließend und gleichzeitig tiefgehend. Man spürt sofort, dass Mariem sehr viel Erfahrung hat und Yoga wirklich ein Teil ihres Lebens ist. Dass sie Yoga in Nepal gelernt und praktiziert hat, verleiht ihren Stunden eine besondere Tiefe. Ich gehe jedes Mal mit einem wunderbar guten Gefühl aus der Stunde. Absolute Empfehlung.",
+          "name": "Rebecca Cappucci",
+          "role": "Yoga",
+          "country": "IT"
         }
       }
     },
@@ -241,6 +254,10 @@
         "q6": {
           "q": "Wie ist deine Storno-/Umbuchungsregelung?",
           "a": "Wenn sich etwas ändert, bitte so früh wie möglich umbuchen. Bei kurzfristigen Absagen kann die Session je nach Frist berechnet werden. Die genauen Bedingungen bekommst du beim Buchen transparent angezeigt."
+        },
+        "q7": {
+          "q": "Gibt es Parkplätze?",
+          "a": "Ja – Parken ist auf dem Parkplatz von Rossini möglich (je nach Verfügbarkeit)."
         }
       }
     }

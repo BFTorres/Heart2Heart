@@ -29,6 +29,13 @@
   },
   "sections": {
     "location": {
+      "labels": {
+        "venue": "Location",
+        "floor": "Floor",
+        "parking": "Parking",
+        "venueLabel": "Venue:",
+        "floorLabel": "Floor:"
+      },
       "title": "Location",
       "subtitle": "Find the studio in Hannover and open directions when you’re ready.",
       "cardTitle": "Visit the studio",
@@ -39,8 +46,8 @@
       "privacyNote": "The interactive map loads external map tiles (no Google embed). Clicking the button opens Google Maps in a new tab."
     },
     "hero": {
-      "title": "Yoga & Somatics for a grounded, embodied life.",
-      "body": "Support for body awareness, stress regulation, and inner balance—through yoga, somatic sessions, coaching, sound healing, and workshops (online & in-person).",
+      "title": "Yoga, Somatic Coaching & Sound Healing",
+      "body": "Most people try to think their way out of stress. I work differently.\n\nI start with the body, and the mind follows.",
       "imageAlt": "Abstract illustration",
       "google": {
         "ratingValue": "5",
@@ -53,10 +60,10 @@
     },
     "intro": {
       "title": "Welcome",
-      "p1": "Heart 2 Heart Somatics is a space to slow down, reconnect, and return to what you can feel — breath, body, and presence.",
-      "p2": "Mariem combines yoga, somatic guidance, coaching, and sound healing to support nervous system regulation, self-awareness, and steady inner balance.",
-      "p3": "Sessions and workshops are offered for individuals and groups — online and in person — held with care, clarity, and respect for your pace.",
-      "p4": "Whether you're navigating stress, transitions, or simply want to deepen your relationship with your body, you're welcome exactly as you are."
+      "p1": "For overthinkers, sensitive people, or anyone who feels constantly stressed and mentally overloaded. When mental stress becomes normal, the body pays the price.",
+      "p2": "You can’t fully relax. You can’t stop overthinking. Brain fog. Poor sleep. Constant tension.",
+      "p3": "Through somatic yoga, coaching, and sound healing, we work on the multiple levels where stress patterns are stored , not just talking.",
+      "p4": "So your focus improves. Your sleep gets better. And you get your energy back. By changing the pattern at its root."
     },
     "courses": {
       "title": "Healing Options",
@@ -69,9 +76,9 @@
       },
       "items": {
         "sound-healing": {
-          "title": "Sound Healing",
-          "description": "A calming, immersive experience—sound as a space for rest and connection.",
-          "details": "A spacious 1:1 session designed for deep rest and reconnection.\n\nWe begin with a short check-in, intention setting, and a gentle arrival in the body. You'll be guided through grounding and regulation practices before we move into an immersive sound journey.\n\nAfterwards, we take time for integration—so you leave feeling more settled, clear, and supported.",
+          "title": "Sound Healing 1:1",
+          "description": "A private sound session to calm your nervous system: This helps your busy mind to switch off and you body to fully relaxe.",
+          "details": "A 1:1 sound healing experience using singing bowls placed around and on the body. The vibrations support deep relaxation and energetic balance.\n\nWe begin with a short check-in, and a gentle arrival in the body. You'll be guided through grounding and regulation practices before we move into an immersive sound journey.\n\nAfterwards, we take time for integration, so you leave feeling tension-free, calm and mentally quiet.",
           "meta": {
             "duration": "120 minutes",
             "format": "In person (studio)",
@@ -80,9 +87,9 @@
           }
         },
         "sound-bath": {
-          "title": "Sound Bath",
-          "description": "A group sound journey—for deep relaxation and integration.",
-          "details": "A shared sound experience for small groups—calm, immersive, and deeply restorative.\n\nYou'll be invited to get comfortable with cushions and blankets while sound creates a safe container for slowing down. This is ideal if you want to decompress, reset, and feel more grounded.\n\nNo prior experience needed—just come as you are and allow yourself to receive.",
+          "title": "Group Sound Bath",
+          "description": "A group sound experience designed to regulate your nervous system and quiet mental noise. Lie down. Receive. Reset.",
+          "details": "A shared sound experience for small groups using singing bowls and rhythmic vibration to bring the body into a state of deep rest.\n\nYou'll be invited to get comfortable with cushions and blankets while sound creates a safe container for slowing down. This is ideal if you want to decompress, reset, and feel more grounded. No prior experience needed, just come as you are and allow yourself to receive.",
           "meta": {
             "duration": "60 minutes",
             "format": "In person (studio)",
@@ -90,21 +97,10 @@
             "price": "From €25 per person"
           }
         },
-        "yoga-and-meditation": {
-          "title": "Yoga & Meditation",
-          "description": "Mindful movement and breath—for stability, flexibility, and inner calm.",
-          "details": "A practice that balances mindful movement, breath, and presence—without pressure or performance.\n\nYoga (group): a supportive, body-aware flow to build steadiness, mobility, and calm.\nMeditation (1:1): guided sessions to settle the mind, strengthen inner focus, and create space for clarity.\n\nAll sessions are adaptable—especially helpful if you want consistency, softness, and a practice that meets you where you are.",
-          "meta": {
-            "duration": "Yoga: 75 minutes",
-            "format": "In person (studio) or Online",
-            "group": "Yoga: Group (min. 3 people, max. 7 people)",
-            "price": "Yoga: From €30 per person / €100 per month"
-          }
-        },
         "somatic-coaching": {
-          "title": "Somatic Coaching",
-          "description": "1:1 support to explore patterns, boundaries, and body-based resources.",
-          "details": "Somatic coaching offers 1:1 support to explore patterns, boundaries, and resources through the lens of the body.\n\nSessions combine practical reflection with embodied tools—so you can notice what's happening in real time, build regulation skills, and strengthen your capacity to respond with more choice.\n\nGentle, respectful, and paced to what feels safe—this is for you if you want sustainable change, not quick fixes.",
+          "title": "Somatic Coaching 1:1",
+          "description": "For people who feel constantly stressed, overwhelmed, or stuck. We work with your body, not only your thoughts, to create real, lasting change.",
+          "details": "A body-based work focused on embodied awareness. Instead of analyzing only your story and your thoughts, we integrate also what is happening in your body right now.\n\nWhat you gain:\n\n- Practical tools to regulate stress\n\n- Less reactivity, more clarity\n\n- A stronger sense of inner stability\n\n- Sustainable coping skills between sessions",
           "meta": {
             "duration": "60 minutes",
             "format": "In person (studio)",
@@ -112,10 +108,21 @@
             "price": "From €120"
           }
         },
+        "yoga-and-meditation": {
+          "title": "Yoga & Meditation",
+          "description": "Slow, body-aware movement for people who feel stressed, mentally overloaded and didn´t learn how to relaxe.",
+          "details": "These sessions are focused on body awareness, breath, and nervous system balance.\n\nIdeal for:\n\n- Beginners\n\n- Overthinkers\n\n- People who feel disconnected from their body",
+          "meta": {
+            "duration": "75 minutes",
+            "format": "In person or Online",
+            "group": "Group (min. 3 people, max. 7 people) / Individual",
+            "price": "Drop-in classes: €30 p.P. - €100 p.m. / Private classes: €49 per person"
+          }
+        },
         "trainings-and-workshops": {
           "title": "Trainings & Workshops",
           "description": "Workshops for personal growth, regulation, and embodied learning.",
-          "details": "Interactive trainings and workshops for groups—designed to translate somatic understanding into everyday life.\n\nFormats can include education, guided practices, reflection, and simple tools you can apply immediately. Suitable for teams, communities, and private groups.\n\nDates and topics change—subscribe to receive new workshop announcements and upcoming offerings.",
+          "details": "Interactive trainings and workshops for groups - designed to translate somatic understanding into everyday life.\n\nFormats can include education, guided practices, reflection, and simple tools you can apply immediately. Suitable for teams, communities, and private groups.\n\nDates and topics change - subscribe to receive new workshop announcements and upcoming offerings.",
           "meta": {
             "duration": "On request",
             "format": "Online",
@@ -125,8 +132,8 @@
         },
         "ifs": {
           "title": "Internal Family Systems (IFS)",
-          "description": "A gentle approach to understanding inner parts with curiosity and compassion.",
-          "details": "Internal Family Systems (IFS) is a gentle, respectful approach to understanding your inner world.\n\nTogether we explore ‘parts'—protective patterns, emotions, and inner responses—with curiosity and compassion. This can create more clarity, self-trust, and inner steadiness.\n\nSessions are paced, supportive, and grounded—so you can meet yourself with more understanding and less overwhelm.",
+          "description": "A structured approach to understand and work with the different parts inside you. Build clarity. Build inner leadership.",
+          "details": "A compassionate framework to explore inner conflicts, protective patterns, and emotional triggers without judgment.\n\nWhat you gain:\n\n- Self-understanding\n\n- Reduced inner conflict\n\n- Stronger emotional regulation\n\n- Clearer decision-making\n\n- Self-compassion",
           "meta": {
             "duration": "60-90 minutes",
             "format": "In person (studio)",
@@ -138,8 +145,8 @@
     },
     "about": {
       "title": "My Journey",
-      "summary": "Healing doesn't happen all at once. It unfolds—step by step, across time, places, and seasons of our lives.\n\nHeart 2 Heart Somatics grew from this lived experience—gentle, grounded support for stress regulation, body connection, and inner balance.",
-      "body": "Healing doesn't happen all at once. It unfolds—step by step, across time, places, and seasons of our lives.\n\nI left Tunisia at seventeen and began building a life in Italy. I studied, worked long hours, and learned to keep going—often relying on resilience alone. For a while, that felt like enough. Until life asked for something different.\n\nMoving to Germany, and later spending time in Dubai and the Netherlands, became turning points. I started therapy and stepped into personal development training where I discovered embodiment practices—the moment I realized my body had been speaking all along. Learning to listen changed everything.\n\nFrom there I deepened my path through somatic coaching, Internal Family Systems (IFS), yoga teacher training, sound healing, and Reiki. In Nepal, during a three-day silent fasting retreat, stillness made something clear: I wanted to create a space where people can come home to themselves.\n\nHeart 2 Heart Somatics grew from this lived experience. My work is gentle, grounded, and paced to what feels safe—supporting you in stress regulation, body connection, and inner balance, in person or online.",
+      "summary": "My healing didn’t happen all at once.\n\nIt unfolded step by step, across time, places, and seasons of my life.",
+      "body": "I left Tunisia at 17 and moved to Italy to study medicine. I worked and studied at the same time. For years, I lived in survival mode. I burned out more than once. I kept going anyway. Italy was a chapter of endurance, there I learned how to survive. When I finally moved to Germany, the survival stopped and  I discovered I was carrying Complex PTSD with dissociative disorder. And that’s when everything I had been holding in for years began to surface. And what came up at first was emotional meltdown and later emotional breakdown ,patterns I didn’t understand yet.\n\nYears later i moved to Dubai. There I was diagnosed with generalized anxiety disorder and my therapist identified me as a highly sensitive person. I started therapy, and it helped but the real turning point though came one year later in the Netherlands. That´s where, I stepped into personal development trainings and discovered embodiment practices.I still remember the first tears of joy, the first time i didn´t feel dissociated from my body.\n\nI felt alive, i felt fully present, i felt at home within. That was the moment I realized: My body had been speaking all along. I just hadn’t learned how to listen yet. Learning to listen changed everything.\n\nWhat started as a journey to heal myself slowly became something more. I trained in somatic coaching in UK. I studied Internal Family Systems in Jordan. I continued with yoga, sound healing, and Reiki in Nepal. In Nepal, during a three-day silent fasting retreat in a mountain temple, something became clear in that stillness.\n\nDuring the meditation, The name came to me -Heart to Heart Somatics. I knew then that i wanted to hold space for others to come home to themselves. Today, my work is from my heart to yours. It comes from lived experience. Because I know what it means to survive. I know how to feels to come home. And I know what it takes to finally feel safe in your own body.",
       "imageAlt": "Portrait-style image representing personal growth and calm"
     },
     "voices": {
@@ -181,6 +188,12 @@
           "name": "F. Joseph",
           "role": "Somatic Coaching",
           "country": "LC"
+        },
+        "t7": {
+          "quote": "Yoga with Mariem is simply beautiful. You immediately feel at ease with her; everything is relaxed and natural. She has a very pleasant manner and creates an atmosphere where it's easy to switch off. The classes are clear, flowing, and yet profound. You immediately sense that Mariem has a wealth of experience and that yoga is truly a part of her life. The fact that she learned and practiced yoga in Nepal gives her classes a special depth.I always leave the class with a wonderful feeling. Highly recommended.",
+          "name": "Rebecca Cappucci",
+          "role": "Yoga",
+          "country": "IT"
         }
       }
     },
@@ -242,6 +255,10 @@
         "q6": {
           "q": "What is your cancellation policy?",
           "a": "Please reschedule as early as possible if something changes. For late cancellations, the session may be charged depending on the notice period. You'll receive the exact policy when booking so everything is transparent."
+        },
+        "q7": {
+          "q": "Is parking available?",
+          "a": "Yes—parking is available at the Rossini parking lot (subject to availability)."
         }
       }
     }

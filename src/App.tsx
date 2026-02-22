@@ -37,9 +37,8 @@ export default function App() {
       <main id="content" className="min-h-[70vh]">
         <HeroSection />
         <IntroSection />
-        <CoursesSection />
-        <CoursesSectionMedia />
         <AboutSection />
+        <CoursesSection /> 
         <TestimonialsSection />
         <PricingSection />
         <FAQSection />

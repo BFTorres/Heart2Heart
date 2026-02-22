@@ -26,6 +26,21 @@ function CountryFlag({ code }: { code: string }) {
     );
   }
 
+  // Italy (IT): green / white / red vertical stripes
+  if (c === "IT") {
+    return (
+      <svg
+        aria-hidden
+        viewBox="0 0 3 2"
+        className="h-4 w-6 rounded-sm border border-border"
+      >
+        <rect width="3" height="2" fill="#FFFFFF" />
+        <rect width="1" height="2" x="0" fill="#009246" />
+        <rect width="1" height="2" x="2" fill="#CE2B37" />
+      </svg>
+    );
+  }
+
   // United Arab Emirates (AE): red vertical + green/white/black horizontal
   if (c === "AE") {
     return (

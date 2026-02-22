@@ -1,3 +1,4 @@
+// src/components/sections/LocationSection.tsx
 import { useMemo } from "react"
 import { useTranslation } from "react-i18next"
 import { ExternalLink, MapPin } from "lucide-react"
@@ -16,17 +17,30 @@ function buildGoogleDirectionsUrl(destination: string) {
 
 export function LocationSection() {
   const { t } = useTranslation()
-  const { theme } = useAccessibilityStore()
+  const theme = useAccessibilityStore((s) => s.theme)
 
   // Map only supports light/dark themes; map high-contrast to the closest match.
   const mapTheme = theme === "dark" || theme === "contrast-dark" ? "dark" : "light"
 
   const destination = useMemo(() => {
-    const { addressLine1, postalCity, country } = SITE.location
-    return `${addressLine1}, ${postalCity}, ${country}`
+    const { addressLine1, postalCity, country, venueName } = SITE.location
+    // Keep destination clean; optionally prepend venue name to help matching.
+    return venueName
+      ? `${venueName}, ${addressLine1}, ${postalCity}, ${country}`
+      : `${addressLine1}, ${postalCity}, ${country}`
   }, [])
 
-  const { lat, lng, name, addressLine1, postalCity } = SITE.location
+  const {
+    lat,
+    lng,
+    name,
+    addressLine1,
+    postalCity,
+    venueName,
+    floor,
+    arrivalHint,
+    parkingHint,
+  } = SITE.location
 
   return (
     <section id="location" className="border-border bg-background">
@@ -37,7 +51,7 @@ export function LocationSection() {
         <Card className="mt-8 overflow-hidden rounded-2xl p-0">
           <div className="flex flex-col gap-0 lg:flex-row">
             {/* Left: Map */}
-            <div className="relative h-[380px] w-full lg:h-140 lg:w-[65%]">
+            <div className="relative h-[380px] w-full lg:h-[420px] lg:w-[65%]">
               <Map
                 className="h-full w-full"
                 theme={mapTheme}
@@ -63,22 +77,33 @@ export function LocationSection() {
                     </button>
                   </MarkerContent>
 
-                  <MarkerPopup closeButton className="p-0 rounded-xl">
-                    <div className="w-[260px] rounded-xl bg-background p-4">
+                  <MarkerPopup closeButton className="rounded-xl p-0">
+                    <div className="w-[280px] rounded-xl bg-background p-4">
                       <p className="text-sm font-semibold">{name}</p>
                       <p className="mt-1 text-sm text-muted-foreground">
+                        {venueName ? (
+                          <>
+                            {venueName}
+                            {floor ? ` · ${floor}` : ""}
+                            <br />
+                          </>
+                        ) : null}
                         {addressLine1}
                         <br />
                         {postalCity}
                       </p>
 
+                      {arrivalHint ? (
+                        <p className="mt-3 text-xs text-muted-foreground">{arrivalHint}</p>
+                      ) : null}
+
+                      {parkingHint ? (
+                        <p className="mt-2 text-xs text-muted-foreground">{parkingHint}</p>
+                      ) : null}
+
                       <div className="mt-3 flex justify-end">
                         <Button asChild size="sm">
-                          <a
-                            href={buildGoogleDirectionsUrl(destination)}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
+                          <a href={buildGoogleDirectionsUrl(destination)} target="_blank" rel="noreferrer">
                             {t("sections.location.directionsCta")}
                             <ExternalLink className="ml-2 size-4" aria-hidden />
                           </a>
@@ -96,6 +121,7 @@ export function LocationSection() {
 
               <div className="mt-3 rounded-2xl border border-border bg-muted/30 p-4">
                 <p className="text-sm text-muted-foreground">{t("sections.location.addressLabel")}</p>
+
                 <p className="mt-1 text-sm">
                   {name}
                   <br />
@@ -103,6 +129,26 @@ export function LocationSection() {
                   <br />
                   {postalCity}
                 </p>
+
+                {(venueName || floor) && (
+                  <div className="mt-3 text-sm text-muted-foreground">
+                    {venueName ? (
+                      <p>
+                        <span className="font-medium text-foreground">{t("sections.location.venueLabel")}</span>{" "}
+                        {venueName}
+                      </p>
+                    ) : null}
+                    {floor ? (
+                      <p>
+                        <span className="font-medium text-foreground">{t("sections.location.floorLabel")}</span>{" "}
+                        {floor}
+                      </p>
+                    ) : null}
+                  </div>
+                )}
+
+                {arrivalHint ? <p className="mt-3 text-sm text-muted-foreground">{arrivalHint}</p> : null}
+                {parkingHint ? <p className="mt-2 text-sm text-muted-foreground">{parkingHint}</p> : null}
               </div>
 
               <div className="mt-4 flex justify-end">
@@ -113,9 +159,7 @@ export function LocationSection() {
                 </Button>
               </div>
 
-              <p className="mt-4 text-xs text-muted-foreground">
-                {t("sections.location.privacyNote")}
-              </p>
+              <p className="mt-4 text-xs text-muted-foreground">{t("sections.location.privacyNote")}</p>
             </div>
           </div>
         </Card>
