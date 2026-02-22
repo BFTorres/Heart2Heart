@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { X } from "lucide-react";
-import aboutImg from "@/assets/about.jpeg";
+import aboutImg from "@/assets/about.jpg";
 import { Container } from "@/components/layout/Container";
 import { Button } from "@/components/ui/button";
 import {

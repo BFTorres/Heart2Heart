@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero.jpeg";
+import heroImg from "@/assets/hero.jpg";
 import { Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
