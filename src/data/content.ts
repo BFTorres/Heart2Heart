@@ -83,12 +83,12 @@ export const NAV = [
  * sections.courses.items.<id>.*
  */
 export const COURSES = [
-  { id: "sound-healing", googleIcon: "spatial_tracking" },
-  { id: "sound-bath", googleIcon: "spa" },
-  { id: "yoga-and-meditation", googleIcon: "self_improvement" },
+  { id: "sound-healing", googleIcon: "spatial_audio" },
+  { id: "sound-bath", googleIcon: "spatial_tracking" },
+  { id: "yoga-and-meditation", googleIcon: "spa" },
   { id: "somatic-coaching", googleIcon: "accessibility_new" },
   { id: "trainings-and-workshops", googleIcon: "group" },
-  { id: "ifs", googleIcon: "neurology" },
+  { id: "ifs", googleIcon: "cognition" },
 ] as const;
 
 export const TESTIMONIALS = [
