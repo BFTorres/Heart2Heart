@@ -45,7 +45,7 @@ export function LocationSection() {
         <Card className="mt-8 overflow-hidden rounded-2xl p-0">
           <div className="flex flex-col gap-0 lg:flex-row">
             {/* Left: Map */}
-            <div className="relative h-[380px] w-full lg:h-[420px] lg:w-[65%]">
+            <div className="relative h-[380px] w-full lg:h-140 lg:w-[65%]">
               <Map
                 className="h-full w-full"
                 theme={mapTheme}

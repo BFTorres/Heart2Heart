@@ -1,12 +1,3 @@
-import {
-  Waves,
-  Music2,
-  Users,
-  PersonStanding,
-  Layers,
-  SunMedium,
-} from "lucide-react";
-
 export const SITE = {
   brand: "Heart 2 Heart Somatics",
   calendlyUrl: "https://calendly.com/heart2heartsomatics/",
@@ -92,12 +83,12 @@ export const NAV = [
  * sections.courses.items.<id>.*
  */
 export const COURSES = [
-  { id: "sound-healing", Icon: Music2 },
-  { id: "sound-bath", Icon: Waves },
-  { id: "yoga-and-meditation", Icon: SunMedium },
-  { id: "somatic-coaching", Icon: PersonStanding },
-  { id: "trainings-and-workshops", Icon: Users },
-  { id: "ifs", Icon: Layers },
+  { id: "sound-healing", googleIcon: "spatial_tracking" },
+  { id: "sound-bath", googleIcon: "spa" },
+  { id: "yoga-and-meditation", googleIcon: "self_improvement" },
+  { id: "somatic-coaching", googleIcon: "accessibility_new" },
+  { id: "trainings-and-workshops", googleIcon: "group" },
+  { id: "ifs", googleIcon: "neurology" },
 ] as const;
 
 export const TESTIMONIALS = [
@@ -154,7 +145,7 @@ export const PRICING = [
       "sections.pricing.plans.bundles.bullets.b1",
       "sections.pricing.plans.bundles.bullets.b2",
       "sections.pricing.plans.bundles.bullets.b3",
-/*       "sections.pricing.plans.bundles.bullets.b4", */
+      /*       "sections.pricing.plans.bundles.bullets.b4", */
     ],
     ctaLabelKey: "cta.freeWelcomeSession",
     ctaType: "calendly",

@@ -10,16 +10,17 @@
     "viewPricing": "Pakete ansehen",
     "learnMore": "Mehr erfahren",
     "bookNow": "Jetzt buchen",
-    "joinNewsletter": "Workshop-Updates abonnieren",
+    "joinNewsletter": "Workshop-Updates erhalten",
+    "readFullStory": "Die ganze Geschichte lesen",
     "freeWelcomeSession": "Kostenloses Kennenlerngespräch",
     "requestBusinessPackage": "Business-Angebot anfragen"
   },
   "nav": {
     "home": "Start",
     "intro": "Einführung",
-    "courses": "Heilungsmethoden",
+    "courses": "Angebote",
     "about": "Mein Weg",
-    "voices": "Vertrauensstimmen",
+    "voices": "Kundenstimmen",
     "pricing": "Pakete",
     "faq": "FAQ",
     "menu": "Menü",
@@ -29,38 +30,38 @@
   "sections": {
     "location": {
       "labels": {
-    "venueLabel": "Ort",
-    "floorLabel": "Etage",
-    "parkingLabel": "Parken"
+        "venueLabel": "Ort",
+        "parkingLabel": "Parken",
+        "floorLabel": "Etage:"
       },
       "title": "Standort",
-      "subtitle": "Finde das Studio in Hannover und öffne bei Bedarf die Route.",
+      "subtitle": "Finde das Studio in Hannover und öffne die Wegbeschreibung, wenn du bereit bist.",
       "cardTitle": "Studio besuchen",
       "addressLabel": "Adresse",
       "markerAria": "Standortdetails öffnen",
-      "directionsCta": "Route starten",
+      "directionsCta": "Wegbeschreibung",
       "openInMaps": "In Google Maps öffnen",
-      "privacyNote": "Die interaktive Karte lädt externe Kartendaten (kein Google-Embed). Beim Klick auf den Button öffnet sich Google Maps in einem neuen Tab."
+      "privacyNote": "Die interaktive Karte lädt externe Kartenkacheln (kein Google-Embed). Ein Klick auf den Button öffnet Google Maps in einem neuen Tab."
     },
     "hero": {
-      "title": "Yoga & Somatics für mehr Erdung und innere Balance.",
-      "body": "Unterstützung für Körperwahrnehmung, Stressregulation und innere Balance - mit Yoga, somatischen Sessions, Coaching, Sound Healing und Workshops (online & vor Ort).",
+      "title": "Yoga, Somatisches Coaching & Sound Healing",
+      "body": "Die meisten Menschen versuchen, sich aus Stress herauszudenken. Ich arbeite anders.\n\nIch starte mit dem Körper - und der Kopf folgt.",
       "imageAlt": "Abstrakte Illustration",
       "google": {
         "ratingValue": "5",
         "reviewCountValue": "5",
         "url": "https://www.google.com/maps/search/?api=1&query=Heart%202%20Heart%20Somatics%2C%20Mercedesstra%C3%9Fe%203%2C%2030453%20Hannover",
         "text": "{{rating}} auf Google ({{count}} Rezensionen)",
-        "linkLabel": "Rezensionen ansehen",
+        "linkLabel": "Rezensionen lesen",
         "ariaLabel": "{{rating}} von 5 auf Google, basierend auf {{count}} Rezensionen"
       }
     },
     "intro": {
       "title": "Willkommen",
-      "p1": "Heart 2 Heart Somatics ist ein Raum, um langsamer zu werden, wieder zu spüren und im Körper anzukommen - mit Atem, Präsenz und Ruhe.",
-      "p2": "Mariem verbindet Yoga, somatische Begleitung, Coaching und Sound Healing, um Stressregulation, Körperwahrnehmung und innere Balance zu unterstützen.",
-      "p3": "Die Angebote richten sich an Einzelpersonen und Gruppen - online und vor Ort - und finden in einem sicheren, wertschätzenden Rahmen statt.",
-      "p4": "Ob du gerade viel trägst, in Veränderung steckst oder dir einfach mehr Verbindung zu dir selbst wünschst: Du bist willkommen, so wie du bist."
+      "p1": "Für Overthinker, sensible Menschen oder alle, die sich dauerhaft gestresst und mental überlastet fühlen. Wenn mentaler Stress zur Normalität wird, zahlt der Körper den Preis.",
+      "p2": "Du kannst nicht richtig entspannen. Du kannst das Grübeln nicht stoppen. Brain Fog. Schlechter Schlaf. Dauerhafte Anspannung.",
+      "p3": "Mit somatischem Yoga, Coaching und Sound Healing arbeiten wir auf den Ebenen, auf denen Stressmuster gespeichert sind - nicht nur im Gespräch.",
+      "p4": "Damit sich dein Fokus verbessert. Dein Schlaf besser wird. Und du deine Energie zurückbekommst - indem wir das Muster an der Wurzel verändern."
     },
     "courses": {
       "title": "Angebote",
@@ -73,53 +74,53 @@
       },
       "items": {
         "sound-healing": {
-          "title": "Sound Healing",
-          "description": "Eine beruhigende, immersive Erfahrung - Klang als Raum für Ruhe und Verbindung.",
-          "details": "Eine großzügige 1:1 Session für tiefe Entspannung und neue Verbindung zu dir selbst.\n\nWir starten mit einem kurzen Check-in, einer Intention und einem sanften Ankommen im Körper. Du wirst durch erdende und regulierende Übungen begleitet, bevor wir in eine immersive Klangreise eintauchen.\n\nZum Abschluss nehmen wir uns Zeit für Integration - damit du geerdet, klarer und gut begleitet aus der Session gehst.",
+          "title": "Sound Healing 1:1",
+          "description": "Eine private Klangsession zur Beruhigung deines Nervensystems: Sie hilft deinem Kopf, abzuschalten, und deinem Körper, wirklich zu entspannen.",
+          "details": "Eine 1:1 Sound-Healing-Erfahrung mit Klangschalen, die um und auf dem Körper platziert werden. Die Vibrationen unterstützen tiefe Entspannung und energetische Balance.\n\nWir beginnen mit einem kurzen Check-in und einem sanften Ankommen im Körper. Danach wirst du durch Erdungs- und Regulationsübungen geführt, bevor wir in eine immersive Klangreise eintauchen.\n\nAnschließend nehmen wir uns Zeit für Integration - damit du gelöst, ruhig und mental leiser gehst.",
           "meta": {
             "duration": "120 Minuten",
             "format": "Vor Ort (Studio)",
             "group": "1:1",
-            "price": "Ab €120"
+            "price": "Ab 120 €"
           }
         },
         "sound-bath": {
-          "title": "Sound Bath",
-          "description": "Eine Klangreise im Gruppenformat - für tiefe Entspannung und Integration.",
-          "details": "Eine Klangreise im kleinen Gruppenrahmen - ruhig, intensiv und regenerierend.\n\nDu richtest dich mit Kissen und Decken bequem ein, während Klang einen geschützten Raum zum Loslassen schafft. Ideal, wenn du runterfahren, auftanken und dich danach geerdeter fühlen möchtest.\n\nKeine Vorkenntnisse nötig - du darfst einfach ankommen und empfangen.",
+          "title": "Gruppen Sound Bath",
+          "description": "Eine Klangreise in der Gruppe - entwickelt, um dein Nervensystem zu regulieren und mentalen Lärm zu beruhigen. Hinlegen. Empfangen. Reset.",
+          "details": "Eine gemeinsame Klangerfahrung für kleine Gruppen - mit Klangschalen und rhythmischer Vibration, die den Körper in einen Zustand tiefer Ruhe bringt.\n\nDu wirst eingeladen, es dir mit Kissen und Decken bequem zu machen, während Klang einen sicheren Raum schafft, um zu verlangsamen. Ideal, wenn du dekomprimieren, resetten und dich geerdeter fühlen möchtest. Keine Vorerfahrung nötig - komm, wie du bist, und erlaube dir zu empfangen.",
           "meta": {
             "duration": "60 Minuten",
             "format": "Vor Ort (Studio)",
-            "group": "Gruppe (min. 4 Personen, max. 7 Personen)",
-            "price": "Ab €25 pro Person"
-          }
-        },
-        "yoga-and-meditation": {
-          "title": "Yoga & Meditation",
-          "description": "Achtsame Bewegung und Atem - für Stabilität, Beweglichkeit und innere Ruhe.",
-          "details": "Eine Praxis aus Bewegung, Atem und Präsenz - ohne Druck und ohne Leistungsanspruch.\n\nYoga (Gruppe): unterstützende, körperbewusste Sequenzen für Stabilität, Beweglichkeit und Ruhe.\nMeditation (1:1): angeleitete Sessions, um den Geist zu sammeln, innere Klarheit zu stärken und Raum zu schaffen.\n\nAlles ist anpassbar - besonders passend, wenn du eine sanfte, verlässliche Praxis suchst, die dich dort abholt, wo du gerade bist.",
-          "meta": {
-            "duration": "Yoga: 75 Minuten",
-            "format": "Vor Ort (Studio) oder Online",
-            "group": "Yoga: Gruppe (min. 3 Personen, max. 7 Personen)",
-            "price": "Yoga: Ab €30 pro Person / €100 monatlich"
+            "group": "Gruppe (mind. 4 Personen, max. 7 Personen)",
+            "price": "Ab 25 € pro Person"
           }
         },
         "somatic-coaching": {
-          "title": "Somatisches Coaching",
-          "description": "1:1 Begleitung, um Muster, Grenzen und Ressourcen körperbasiert zu erkunden.",
-          "details": "Somatisches Coaching ist 1:1 Begleitung, um Muster, Grenzen und Ressourcen über den Körper zu erkunden.\n\nWir verbinden praktische Reflexion mit körperbasierten Tools - damit du spürst, was im Moment passiert, Regulation aufbauen kannst und mehr Wahlmöglichkeiten im Umgang mit Stress und Herausforderungen entwickelst.\n\nSanft, respektvoll und in deinem Tempo - für nachhaltige Veränderung statt schneller Lösungen.",
+          "title": "Somatisches Coaching 1:1",
+          "description": "Für Menschen, die sich dauerhaft gestresst, überfordert oder festgefahren fühlen. Wir arbeiten mit deinem Körper - nicht nur mit deinen Gedanken - für echte, nachhaltige Veränderung.",
+          "details": "Körperbasierte Arbeit mit Fokus auf verkörperter Wahrnehmung. Statt nur deine Geschichte und Gedanken zu analysieren, integrieren wir auch, was gerade jetzt in deinem Körper passiert.\n\nWas du gewinnst:\n\n- Praktische Tools zur Stressregulation\n\n- Weniger Reaktivität, mehr Klarheit\n\n- Ein stärkeres Gefühl innerer Stabilität\n\n- Nachhaltige Bewältigungsstrategien zwischen den Sessions",
           "meta": {
             "duration": "60 Minuten",
             "format": "Vor Ort (Studio)",
             "group": "1:1",
-            "price": "Ab €120"
+            "price": "Ab 120 €"
+          }
+        },
+        "yoga-and-meditation": {
+          "title": "Yoga & Meditation",
+          "description": "Langsame, körperbewusste Bewegung für Menschen, die gestresst und mental überlastet sind und nie gelernt haben, zu entspannen.",
+          "details": "Diese Sessions fokussieren Körperwahrnehmung, Atem und die Balance des Nervensystems.\n\nIdeal für:\n\n- Anfänger:innen\n\n- Overthinker\n\n- Menschen, die sich vom eigenen Körper getrennt fühlen",
+          "meta": {
+            "duration": "75 Minuten",
+            "format": "Vor Ort oder online",
+            "group": "Gruppe (mind. 3 Personen, max. 7 Personen) / Einzel",
+            "price": "Drop-in: 30 € p. P. - 100 € p. M. / Privat: 49 € pro Person"
           }
         },
         "trainings-and-workshops": {
           "title": "Trainings & Workshops",
-          "description": "Workshops für persönliche Entwicklung, Regulation und embodied learning.",
-          "details": "Interaktive Trainings und Workshops für Gruppen - damit somatisches Wissen im Alltag wirklich anwendbar wird.\n\nDie Formate können Input, angeleitete Praxis, Reflexion und einfache Tools enthalten, die du direkt nutzen kannst. Geeignet für Teams, Communities und private Gruppen.\n\nThemen und Termine wechseln - abonniere Updates, um neue Workshops und kommende Angebote zu erhalten.",
+          "description": "Workshops für persönliches Wachstum, Regulation und verkörpertes Lernen.",
+          "details": "Interaktive Trainings und Workshops für Gruppen - entwickelt, um somatisches Verständnis in den Alltag zu übersetzen.\n\nFormate können Wissen, angeleitete Praxis, Reflexion und einfache Tools enthalten, die du sofort anwenden kannst. Geeignet für Teams, Communities und private Gruppen.\n\nTermine und Themen wechseln - abonniere Updates, um neue Workshop-Ankündigungen und kommende Angebote zu erhalten.",
           "meta": {
             "duration": "Auf Anfrage",
             "format": "Online",
@@ -129,144 +130,144 @@
         },
         "ifs": {
           "title": "Internal Family Systems (IFS)",
-          "description": "Ein sanfter Ansatz, innere Anteile mit Neugier und Mitgefühl zu verstehen.",
-          "details": "Internal Family Systems (IFS) ist ein sanfter, respektvoller Ansatz, um deine innere Welt besser zu verstehen.\n\nGemeinsam erkunden wir „Anteile“ - Schutzmuster, Gefühle und innere Reaktionen - mit Neugier und Mitgefühl. Das kann Klarheit, Selbstvertrauen und innere Stabilität stärken.\n\nSessions sind gehalten, geerdet und in deinem Tempo - damit du dir selbst mit mehr Verständnis und weniger Überforderung begegnen kannst.",
+          "description": "Ein strukturierter Ansatz, um die verschiedenen Anteile in dir zu verstehen und mit ihnen zu arbeiten. Mehr Klarheit. Mehr innere Führung.",
+          "details": "Ein mitfühlender Rahmen, um innere Konflikte, Schutzmuster und emotionale Trigger ohne Bewertung zu erkunden.\n\nWas du gewinnst:\n\n- Selbstverständnis\n\n- Weniger innere Konflikte\n\n- Stärkere Emotionsregulation\n\n- Klarere Entscheidungen\n\n- Selbstmitgefühl",
           "meta": {
             "duration": "60-90 Minuten",
             "format": "Vor Ort (Studio)",
             "group": "1:1",
-            "price": "Ab €120"
+            "price": "Ab 120 €"
           }
         }
       }
     },
     "about": {
       "title": "Mein Weg",
-      "summary": "Heilung passiert nicht auf einmal. Sie entfaltet sich - Schritt für Schritt, über Zeit, Orte und Lebensphasen hinweg.\n\nHeart 2 Heart Somatics ist aus dieser Erfahrung gewachsen - sanfte, geerdete Begleitung für Stressregulation, Körperverbindung und innere Balance.",
-      "body": "Heilung passiert nicht auf einmal. Sie entfaltet sich - Schritt für Schritt, über Zeit, Orte und Lebensphasen hinweg.\n\nMit siebzehn verließ ich Tunesien und begann, mir in Italien ein neues Leben aufzubauen. Ich studierte, arbeitete lange Stunden und lernte, immer weiterzumachen - oft nur mit Willenskraft und Durchhalten. Eine Zeit lang fühlte sich das nach Stärke an. Bis das Leben etwas anderes von mir verlangte.\n\nDer Umzug nach Deutschland - und später Stationen in Dubai und den Niederlanden - wurden Wendepunkte. Ich begann mit Therapie und absolvierte ein persönliches Entwicklungstraining, in dem ich Embodiment-Praxis kennenlernte. Zum ersten Mal verstand ich: Mein Körper spricht - und ich darf lernen, zuzuhören. Das hat alles verändert.\n\nVon dort vertiefte sich mein Weg über somatisches Coaching, Internal Family Systems (IFS), Yoga-Teacher-Training, Sound Healing und Reiki. In Nepal - während eines dreitägigen Schweige- und Fastenretreats - wurde in der Stille etwas klar: Ich möchte einen Raum schaffen, in dem Menschen wieder bei sich ankommen können.\n\nHeart 2 Heart Somatics ist aus dieser Erfahrung gewachsen. Meine Arbeit ist sanft, geerdet und in dem Tempo, das sich sicher anfühlt - als Unterstützung für Stressregulation, Körperverbindung und innere Balance, vor Ort oder online.",
-      "imageAlt": "Porträtähnliches Bild für persönlichen Weg und Ruhe"
+      "summary": "Meine Heilung geschah nicht auf einmal.\n\nSie entfaltete sich Schritt für Schritt - über Zeit, Orte und Jahreszeiten meines Lebens hinweg.",
+      "body": "Mit 17 verließ ich Tunesien und zog nach Italien, um Medizin zu studieren. Ich arbeitete und studierte gleichzeitig. Jahrelang lebte ich im Überlebensmodus. Ich brannte mehr als einmal aus. Ich machte trotzdem weiter. Italien war ein Kapitel des Durchhaltens - dort lernte ich zu überleben. Als ich schließlich nach Deutschland zog, hörte das Überleben auf, und ich entdeckte, dass ich eine komplexe PTBS mit dissoziativer Störung in mir trug. Und dann begann alles, was ich jahrelang festgehalten hatte, an die Oberfläche zu kommen. Zuerst war es ein emotionales Zusammenbrechen, später ein emotionaler Einbruch - Muster, die ich damals noch nicht verstand.\n\nJahre später zog ich nach Dubai. Dort erhielt ich die Diagnose einer generalisierten Angststörung, und meine Therapeutin identifizierte mich als hochsensiblen Menschen. Ich begann eine Therapie - sie half, aber der eigentliche Wendepunkt kam ein Jahr später in den Niederlanden. Dort trat ich in persönliche Entwicklungstrainings ein und entdeckte Embodiment-Praktiken. Ich erinnere mich noch an die ersten Freudentränen - das erste Mal, dass ich mich nicht dissoziiert von meinem Körper fühlte.\n\nIch fühlte mich lebendig, ganz präsent, zuhause in mir. In diesem Moment wurde mir klar: Mein Körper hatte die ganze Zeit gesprochen. Ich hatte nur noch nicht gelernt, zuzuhören. Zuhören zu lernen veränderte alles.\n\nWas als Reise begann, mich selbst zu heilen, wurde langsam zu etwas Größerem. Ich absolvierte eine Ausbildung in somatischem Coaching in Großbritannien. Ich studierte Internal Family Systems in Jordanien. Ich vertiefte Yoga, Sound Healing und Reiki in Nepal. In Nepal - während eines dreitägigen Schweige- und Fastenretreats in einem Bergtempel - wurde mir in dieser Stille etwas klar.\n\nWährend der Meditation kam der Name zu mir: Heart to Heart Somatics. Ich wusste, dass ich Raum halten möchte, damit andere wieder bei sich ankommen können. Heute ist meine Arbeit von meinem Herzen zu deinem. Sie kommt aus gelebter Erfahrung. Denn ich weiß, was es heißt, zu überleben. Ich weiß, wie es sich anfühlt, heimzukommen. Und ich weiß, was es braucht, um sich endlich im eigenen Körper sicher zu fühlen.",
+      "imageAlt": "Porträtähnliches Bild, das persönliches Wachstum und Ruhe vermittelt"
     },
     "voices": {
-      "title": "Kundenstimmen",
-      "subtitle": "Kurze Erfahrungsberichte von Klienten.",
+      "title": "Vertrauensstimmen",
+      "subtitle": "Kurze Erfahrungsberichte von Klient:innen.",
       "items": {
         "t1": {
-          "quote": "Mariems Sound Healing fühlte sich an wie träumen und fliegen - ich kam erschöpft an und ging tief erholt, fast wie nach einem nährenden Urlaub. Ihre sanfte Stimme und der warme Raum haben mein Herz berührt.",
+          "quote": "Mariems Sound Healing fühlte sich an wie träumen und fliegen - ich kam müde an und ging tief erholt, fast wie nach einem nährenden Urlaub. Ihre sanfte Stimme und ihr warmer Raum haben mein Herz berührt.",
           "name": "Jolin",
-          "role": "Tibetanisches Sound Healing",
+          "role": "Tibetisches Sound Healing",
           "country": "DE"
         },
         "t2": {
-          "quote": "Die Arbeit mit Mariem war zutiefst transformierend - sie hält den Raum mit seltener Wärme, Mitgefühl und intuitiver Weisheit. Ihre Verbindung aus IFS und somatischer Arbeit hat mir geholfen, mich auf eine sehr tiefe Weise wieder mit mir selbst zu verbinden. Wenn du jemanden suchst, der wirklich mit ganzem Herzen begleitet und zugleich die Kompetenz und Erfahrung mitbringt, kann ich Mariem von Herzen empfehlen!",
-          "name": "Omnia",
-          "role": "Internal Family Systems (IFS)",
-          "country": "AE"
-        },
-        "t3": {
-          "quote": "Mariems Sound Bath während der Mondfinsternis war ein kraftvolles Ritual - mein Körper und meine Seele haben noch lange in Harmonie nachgeschwungen. Ich spürte Ausrichtung, Klarheit und eine tiefe Verbindung zu meiner weiblichen Kraft.",
-          "name": "Monika",
-          "role": "Sound Bath",
-          "country": "DE"
-        },
-        "t4": {
-          "quote": "In Mariems Raum gehalten zu werden, ist etwas ganz Besonderes. Jede Session hilft mir, mich tiefer mit meiner inneren und äußeren Welt zu verbinden. Ich gehe jedes Mal inspiriert, erneuert und mit vielen Erkenntnissen nach Hause.",
-          "name": "Rena",
-          "role": "Somatisches Coaching",
-          "country": "GB"
-        },
-        "t5": {
-          "quote": "Ich habe mich sehr getragen gefühlt – sowohl von der vielfältigen, bereichernden Gruppe, die Mariem zusammengebracht hat, als auch von der Sorgfalt, die in jedem Detail des Retreats spürbar war. Ihre Planung, Gastfreundschaft und Präsenz haben mir das Gefühl gegeben, sicher und wirklich gesehen zu sein.",
-          "name": "Pid'or",
-          "role": "Retreat",
-          "country": "GB"
-        },
-        "t6": {
-          "quote": "Ich habe mich sehr getragen gefühlt – sowohl von der vielfältigen, bereichernden Gruppe, die Mariem zusammengebracht hat, als auch von der Sorgfalt, die in jedem Detail des Retreats spürbar war. Ihre Planung, Gastfreundschaft und Präsenz haben mir das Gefühl gegeben, sicher und wirklich gesehen zu sein.",
+          "quote": "Mariems Coaching half mir, limitierende Glaubenssätze aufzudecken, und gab mir praktische Tools an die Hand, die mich jetzt im Alltag begleiten. Ihre Geduld und intuitive Führung haben mich aus meiner Komfortzone in echtes Wachstum gebracht. Danke, Mariem. Du bist großartig!",
           "name": "F. Joseph",
           "role": "Somatisches Coaching",
           "country": "LC"
         },
-        "t7": {
-          "quote": "Yoga mit Mariem ist einfach wunderschön. Man fühlt sich bei ihr sofort wohl – alles ist entspannt und natürlich. Sie hat eine sehr angenehme Art und schafft eine Atmosphäre, in der man leicht abschalten kann. Die Stunden sind klar aufgebaut, fließend und gleichzeitig tiefgehend. Man spürt sofort, dass Mariem sehr viel Erfahrung hat und Yoga wirklich ein Teil ihres Lebens ist. Dass sie Yoga in Nepal gelernt und praktiziert hat, verleiht ihren Stunden eine besondere Tiefe. Ich gehe jedes Mal mit einem wunderbar guten Gefühl aus der Stunde. Absolute Empfehlung.",
+        "t3": {
+          "quote": "Die Arbeit mit Mariem war zutiefst transformierend - sie hält den Raum mit seltener Wärme, Mitgefühl und intuitiver Weisheit. Ihre Verbindung aus IFS und somatischer Arbeit hat mir geholfen, mich auf sehr tiefe Weise wieder mit mir selbst zu verbinden. Wenn du jemanden suchst, der wirklich mit ganzem Herzen begleitet und die Weisheit und Skills mitbringt, um deine Heilung zu unterstützen, kann ich Mariem nicht genug empfehlen!",
+          "name": "Omnia",
+          "role": "Internal Family System (IFS)",
+          "country": "AE"
+        },
+        "t4": {
+          "quote": "Ich fühlte mich zutiefst unterstützt - von der vielfältigen, reichen Gruppe, die Mariem zusammengebracht hat, und von der Sorgfalt in jedem Detail des Retreats. Ihre Planung, Gastfreundschaft und Präsenz ließen mich sicher und gesehen fühlen.",
+          "name": "Pid'or",
+          "role": "Retreat",
+          "country": "GB"
+        },
+        "t5": {
+          "quote": "Mariems Sound Bath während der Mondfinsternis war ein kraftvolles Ritual, das meinen Körper und meine Seele in Harmonie vibrieren ließ. Ich spürte Neuausrichtung, Klarheit und eine tiefe feminine Verbindung in mir zurückkehren.",
+          "name": "Monika",
+          "role": "Sound Bath",
+          "country": "DE"
+        },
+        "t6": {
+          "quote": "Yoga mit Mariem ist einfach wunderschön. Man fühlt sich bei ihr sofort wohl - alles ist entspannt und natürlich. Sie hat eine sehr angenehme Art und schafft eine Atmosphäre, in der man leicht abschalten kann. Die Stunden sind klar, fließend und zugleich tiefgehend. Man spürt sofort, dass Mariem viel Erfahrung hat und Yoga wirklich Teil ihres Lebens ist. Dass sie Yoga in Nepal gelernt und praktiziert hat, gibt ihren Stunden eine besondere Tiefe. Ich gehe jedes Mal mit einem wunderbaren Gefühl aus der Stunde. Sehr empfehlenswert.",
           "name": "Rebecca Cappucci",
           "role": "Yoga",
           "country": "IT"
+        },
+        "t7": {
+          "quote": "In Mariems Raum gehalten zu werden, ist ein echtes Wunder - jede Session hilft mir, mich tiefer mit meiner inneren und äußeren Welt zu verbinden. Ich gehe jedes Mal inspiriert, erneuert und voller Erkenntnisse.",
+          "name": "Rena",
+          "role": "Somatisches Coaching",
+          "country": "GB"
         }
       }
     },
     "pricing": {
       "title": "Pakete",
-      "subtitle": "Alles ist individuell nach deinem Bedarf. Wir stellen dein Paket gemeinsam zusammen - passend zu deinen Zielen, deinem Alltag und dem, was sich unterstützend anfühlt.",
+      "subtitle": "Alles ist auf deine Bedürfnisse abgestimmt. Wir entwickeln dein Paket gemeinsam - basierend auf deinen Zielen, deinem Zeitplan und einem Tempo, das sich richtig anfühlt. Immer mit Respekt für deinen aktuellen Lebenskontext.",
       "businessEmail": {
-        "subject": "Anfrage Business-Pakete — Heart 2 Heart Somatics",
-        "body": "Hallo Mariem,\n\nich interessiere mich für deine Business-Pakete.\n\nUnternehmen/Team:\nWorum geht es (z. B. Burnout-Prävention, Business Yoga, Workshop, Teambuilding, Training):\nGewünschtes Format (vor Ort / online):\nOrt (falls vor Ort):\nUngefähre Gruppengröße:\nGewünschter Zeitraum:\n\nVielen Dank!\n"
+        "subject": "Anfrage Business-Paket — Heart 2 Heart Somatics",
+        "body": "Hallo Mariem,\n\nich interessiere mich für deine Business-Pakete.\n\nUnternehmen/Team:\nWorum geht es (z. B. Burnout-Prävention, Business Yoga, Workshop, Teambuilding, Training):\nBevorzugtes Format (vor Ort / online):\nOrt (falls vor Ort):\nUngefähre Gruppengröße:\nGewünschter Zeitraum:\n\nVielen Dank!\n"
       },
       "plans": {
         "bundles": {
           "title": "Bundles / Pakete",
           "bullets": {
-            "b1": "Stell dir dein Paket selbst zusammen - passend zu dem, was du gerade brauchst.",
-            "b2": "Wähle aus Sound Healing, Yoga & Meditation, Somatischem Coaching und IFS.",
-            "b3": "Eine klare Struktur mit sanftem Tempo und guter Begleitung.",
-            "b4": "Starte mit einem kostenlosen Kennenlerngespräch, um Ziele und nächste Schritte zu klären."
+            "b1": "Ein individueller Weg - speziell für dich zusammengestellt.",
+            "b2": "Ein sorgfältig ausgewähltes Set an Skills und Tools.",
+            "b3": "Begleitung in Richtung nachhaltiger Transformation.",
+            "b4": ""
           },
-          "hint": "Mit dem Button unten buchst du das kostenlose Kennenlerngespräch. Danach stellen wir dein persönliches Paket gemeinsam zusammen – passend zu deinem Bedarf."
+          "hint": "Starte mit einem kostenlosen Kennenlerngespräch. Gemeinsam entwickeln wir deinen persönlichen Weg - passend zu dir. Buche deinen Call unten."
         },
         "business": {
           "title": "Business-Pakete",
           "bullets": {
             "b1": "Burnout-Präventionsprogramm (Stressregulation + nachhaltige Routinen).",
             "b2": "Business Yoga für Teams (vor Ort oder online).",
-            "b3": "Workshops und Trainings - zugeschnitten auf euer Unternehmen.",
-            "b4": "Teambuilding-Formate mit embodied practices.",
-            "b5": "Individueller Plan und Angebot - je nach Ziel, Zeitraum und Gruppengröße."
+            "b3": "Workshops und Trainings - zugeschnitten auf eure Organisation.",
+            "b4": "Teambuilding-Erlebnisse mit embodied practices.",
+            "b5": "Individueller Plan und Angebot basierend auf Zielen, Zeitraum und Gruppengröße."
           },
-          "hint": "Mit dem Button unten schreibst du Mariem eine E-Mail. Du erhältst anschließend ein individuelles Angebot – passend zu Ziel, Zeitraum und Gruppengröße."
+          "hint": "Klicke auf den Button unten, um mir eine E-Mail zu schreiben. Du erhältst ein passgenaues Angebot - basierend auf Teamzielen, Zeitraum und Gruppengröße."
         }
       }
     },
     "faq": {
-      "title": "Häufige Fragen",
-      "subtitle": "Kurze Antworten, damit du dich vor dem Buchen gut orientieren kannst.",
+      "title": "FAQ",
+      "subtitle": "Ein paar kurze Antworten, damit du dich vor dem Buchen gut orientieren kannst.",
       "items": {
         "q1": {
-          "q": "Wie läuft eine Session ab?",
-          "a": "Wir starten mit einem kurzen Check-in und einer Intention. Danach gehen wir in eine angeleitete Praxis (z. B. somatisches Grounding, Atem, sanfte Bewegung, Klang). Zum Abschluss gibt es Integration - damit du mit mehr Klarheit, einem ruhigeren Grundgefühl und einfachen nächsten Schritten in deinen Alltag gehst."
+          "q": "Was passiert in einer Session?",
+          "a": "Wir starten mit einem kurzen Check-in und einer Intention für die Session. Danach gehen wir in eine angeleitete Praxis (z. B. somatisches Grounding, Atem, sanfte Bewegung, Klang). Zum Abschluss gibt es Integration - damit du mit mehr Klarheit, einem ruhigeren Grundgefühl und einfachen nächsten Schritten in deinen Alltag gehst."
         },
         "q2": {
           "q": "Brauche ich Erfahrung mit Yoga, Meditation oder Somatics?",
-          "a": "Nein. Alles ist anfängerfreundlich und anpassbar. Es geht um Körperwahrnehmung und Sicherheit - nicht um Leistung. Du kannst jederzeit kleinere und langsamere Schritte wählen."
+          "a": "Nein. Alles ist anfängerfreundlich und anpassbar. Der Fokus liegt auf Körperwahrnehmung und Sicherheit - nicht auf Leistung. Du kannst jederzeit kleinere, langsamere Schritte wählen."
         },
         "q3": {
-          "q": "Online oder vor Ort - was passt besser?",
-          "a": "Beides kann sehr wirksam sein. Vor Ort bietet dir den Studio-Raum und direkte Begleitung. Online ist flexibel und gut, wenn du lieber in deiner vertrauten Umgebung bist. Wir wählen das Format, das am besten zu deinen Zielen und deinem Wohlgefühl passt."
+          "q": "Online oder vor Ort - was soll ich wählen?",
+          "a": "Beides kann sehr wirksam sein. Vor Ort bietet dir einen dedizierten Studio-Raum und direkte Unterstützung. Online ist flexibel und funktioniert gut, wenn du deine eigene Umgebung bevorzugst. Du bekommst in beiden Fällen klare Anleitung - und wir wählen das Format, das am besten zu deinen Zielen und deinem Wohlgefühl passt."
         },
         "q4": {
           "q": "Wie funktionieren Pakete?",
-          "a": "Pakete sind individuell - passend zu deinem Bedarf, deinem Alltag und dem, was dich wirklich unterstützt. Nach dem kostenlosen Kennenlerngespräch empfehlen wir einen Rhythmus (z. B. wöchentlich, zweiwöchentlich) und kombinieren Methoden, die zu dir passen. Du kannst jederzeit nachjustieren."
+          "a": "Pakete sind individuell - abgestimmt auf deine Bedürfnisse, deinen Zeitplan und das, was dich wirklich unterstützt. Nach dem kostenlosen Kennenlerngespräch empfehlen wir einen Rhythmus (z. B. wöchentlich, zweiwöchentlich) und kombinieren Methoden, die zu dir passen. Du kannst jederzeit anpassen, wenn sich deine Bedürfnisse ändern."
         },
         "q5": {
           "q": "Ist das Therapie?",
-          "a": "Heart 2 Heart Somatics bietet somatische Begleitung, Coaching und Wissensvermittlung - keine medizinische oder psychotherapeutische Behandlung. Bei akuter Krise oder klinischem Bedarf empfehlen wir passende professionelle Unterstützung. Wenn du unsicher bist, ist das kostenlose Kennenlerngespräch ein guter erster Schritt."
+          "a": "Heart 2 Heart Somatics bietet somatische Begleitung, Coaching und Wissensvermittlung - keine medizinische oder psychotherapeutische Behandlung. Wenn du in einer akuten Krise bist oder klinische Versorgung brauchst, empfehlen wir passende professionelle Unterstützung. Wenn du unsicher bist, ist das kostenlose Kennenlerngespräch ein guter erster Schritt."
         },
         "q6": {
-          "q": "Wie ist deine Storno-/Umbuchungsregelung?",
-          "a": "Wenn sich etwas ändert, bitte so früh wie möglich umbuchen. Bei kurzfristigen Absagen kann die Session je nach Frist berechnet werden. Die genauen Bedingungen bekommst du beim Buchen transparent angezeigt."
+          "q": "Wie ist deine Stornierungsregelung?",
+          "a": "Bitte verschiebe Termine so früh wie möglich, wenn sich etwas ändert. Bei kurzfristigen Absagen kann die Session - abhängig von der Vorlaufzeit - berechnet werden. Du erhältst die genaue Regel beim Buchen, damit alles transparent ist."
         },
         "q7": {
           "q": "Gibt es Parkplätze?",
-          "a": "Ja – Parken ist auf dem Parkplatz von Rossini möglich (je nach Verfügbarkeit)."
+          "a": "Ja - Parken ist auf dem Rossini-Parkplatz möglich (je nach Verfügbarkeit)."
         }
       }
     }
   },
   "a11y": {
-    "open": "Optionen zur Barrierefreiheit",
+    "open": "Barrierefreiheitsoptionen",
     "title": "Barrierefreiheit",
     "description": "Anzeige- und Interaktionspräferenzen anpassen. Einstellungen werden lokal auf diesem Gerät gespeichert.",
     "fontSize": {
       "label": "Schriftgröße",
-      "placeholder": "Größe wählen",
+      "placeholder": "Größe auswählen",
       "sm": "Klein",
       "md": "Standard",
       "lg": "Groß",
@@ -274,13 +275,13 @@
     },
     "fontFamily": {
       "label": "Schriftstil",
-      "placeholder": "Stil wählen",
+      "placeholder": "Stil auswählen",
       "system": "System",
       "readable": "Gut lesbar"
     },
     "lineHeight": {
       "label": "Zeilenabstand",
-      "placeholder": "Abstand wählen",
+      "placeholder": "Abstand auswählen",
       "normal": "Normal",
       "relaxed": "Entspannt",
       "loose": "Weit"
@@ -290,7 +291,7 @@
       "help": "Animationen und Scroll-Effekte minimieren."
     },
     "links": {
-      "label": "Links besser sichtbar",
+      "label": "Links mit hoher Sichtbarkeit",
       "help": "Links deutlicher unterstreichen."
     },
     "focus": {
@@ -306,25 +307,25 @@
     "impressum": {
       "trigger": "Impressum",
       "title": "Impressum",
-      "desc": "Anbieterkennzeichnung",
-      "body": "Angaben gemäß § 5 DDG\n\nHeart 2 Heart Somatics\nMariem Werhani\nMercedesstr. 3\n30453 Hannover\nDeutschland\n\nKontakt\nE-Mail: info@heart2heartsomatics.com\nTelefon: 01515-5351628\n\nRechtsform\nEinzelunternehmerin (Kleingewerbe)\n\nUmsatzsteuer-ID / Wirtschafts-ID (nur falls vorhanden)\nUSt-IdNr.: [FALLS VORHANDEN]\nW-IdNr.: [FALLS VORHANDEN]\n\nHinweis zur Verbraucherstreitbeilegung (§ 36 VSBG)\nWir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.\n\nWichtiger Hinweis\nDer Link zur EU-Online-Streitbeilegungsplattform (OS-Plattform) darf seit 20.07.2025 nicht mehr verwendet werden (Plattform eingestellt)."
+      "desc": "Anbieterinformationen",
+      "body": "Anbieterinformationen (Deutschland)\n\nHeart 2 Heart Somatics\nMariem Werhani\nMercedesstr. 3\n30453 Hannover\nDeutschland\n\nKontakt\nE-Mail: info@heart2heartsomatics.com\nTelefon: 01515-5351628\n\nRechtsform\nEinzelunternehmerin (Deutschland)\n\nUSt-IdNr. / Wirtschafts-IdNr. (nur falls vorhanden)\nUSt-IdNr.: [FALLS VORHANDEN]\nWirtschafts-IdNr.: [FALLS VORHANDEN]\n\nVerbraucherstreitbeilegung (§ 36 VSBG)\nWir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.\n\nHinweis\nDie EU-OS-Plattform ist seit dem 20. Juli 2025 eingestellt."
     },
     "privacy": {
       "trigger": "Datenschutz",
       "title": "Datenschutzerklärung",
       "desc": "Informationen zum Datenschutz",
-      "body": "1. Verantwortliche Stelle\nMariem Werhani (Heart 2 Heart Somatics)\nMercedesstr. 3, 30453 Hannover, Deutschland\nE-Mail: info@heart2heartsomatics.com (Betreff: „Datenschutz“)\nTelefon: 01515-5351628\n\n2. Überblick\nDiese Website ist eine statische Single-Page-Website. Wir verwenden keine Tracking- oder Analyse-Tools.\n\n3. Hosting über GitHub Pages\nDiese Website wird über GitHub Pages bereitgestellt (Anbieter: GitHub, Inc. / GitHub B.V.). Beim Aufruf werden technisch notwendige Verbindungsdaten verarbeitet (z. B. IP-Adresse, Geräte-/Browserinformationen, Zeitpunkt des Zugriffs) - insbesondere zur Auslieferung der Inhalte und zur Sicherstellung von Stabilität und Sicherheit.\nRechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an sicherem, stabilem Betrieb).\nHinweis: GitHub verarbeitet Daten ggf. auch in den USA; hierfür werden regelmäßig u. a. Standardvertragsklauseln herangezogen.\n\n4. Speicherung von Einstellungen (Local Storage)\nWir speichern - abhängig von deiner Auswahl - folgende Einstellungen im Browser, um die Website benutzbar und barriereärmer zu machen:\n- Sprache (DE/EN)\n- Theme (Light/Dark/High Contrast)\n- Accessibility-Optionen (z. B. Schriftgröße, Zeilenhöhe, Fokus-Outline)\n- Consent-Status (falls eingeblendet)\nRechtsgrundlage: § 25 Abs. 2 TDDDG (unbedingt erforderliche Speicherung/Zugriff) sowie Art. 6 Abs. 1 lit. f DSGVO bzw. Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung der gewünschten Funktionen).\nSpeicherdauer: bis du sie im Browser löschst oder zurücksetzt.\n\n5. Externe Links (z. B. Calendly, Google)\nWenn du externe Links öffnest (z. B. Terminbuchung via Calendly oder Inhalte von Google), verlässt du unsere Website. Ab dann gilt die Datenschutzerklärung des jeweiligen Anbieters.\n\n6. Newsletter (geplant)\nAktuell verlinken wir ggf. auf ein extern gehostetes Newsletter-Formular (Brevo). Sobald ein Newsletter-Formular direkt eingebunden wird, wird die Datenschutzerklärung entsprechend ergänzt (inkl. Informationen zu Einwilligung, Double-Opt-in und Auftragsverarbeitung).\n\n7. Deine Rechte\nDu hast - je nach Anwendbarkeit - das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch.\nZudem hast du das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren.\n\nStand: 15.02.2026"
+      "body": "1. Verantwortliche Stelle\nMariem Werhani (Heart 2 Heart Somatics)\nMercedesstr. 3, 30453 Hannover, Deutschland\nE-Mail: info@heart2heartsomatics.com (Betreff: „Datenschutz“)\nTelefon: 01515-5351628\n\n2. Überblick\nDies ist eine statische Single-Page-Website. Wir verwenden keine Tracking- oder Werbe-Tracker.\n\n3. Hosting (GitHub Pages)\nDie Website wird über GitHub Pages ausgeliefert. Beim Aufruf werden technische Verbindungsdaten (z. B. IP-Adresse, Geräte-/Browserdaten, Zeitpunkt des Zugriffs) zur Auslieferung und Sicherheit verarbeitet.\n\n4. Lokale Speicherung (Einstellungen)\nJe nach Auswahl speichert die Website Sprach-/Theme-/Barrierefreiheits-Einstellungen in deinem Browser, um die gewünschte Funktion bereitzustellen.\n\n5. Externe Links\nWenn du externe Links öffnest (z. B. Calendly oder Google), gilt die Datenschutzerklärung des jeweiligen Anbieters.\n\nZuletzt aktualisiert: 2026-02-15"
     },
     "accessibility": {
       "trigger": "Barrierefreiheit",
-      "title": "Barrierefreiheitserklärung",
+      "title": "Erklärung zur Barrierefreiheit",
       "desc": "Informationen zur Barrierefreiheit",
-      "body": "Diese Erklärung zur Barrierefreiheit gilt für die Website „Heart 2 Heart Somatics“ (Single-Page-Anwendung inkl. Dialoge).\n\nRechtslage / Einordnung\nDas Barrierefreiheitsstärkungsgesetz (BFSG) gilt grundsätzlich für bestimmte Produkte und Dienstleistungen. Kleinstunternehmen (weniger als 10 Beschäftigte und max. 2 Mio. EUR Jahresumsatz), die Dienstleistungen anbieten, sind vom BFSG ausgenommen. Unabhängig davon verfolgen wir das Ziel, die Website möglichst barrierearm zu gestalten.\n\nStand der Vereinbarkeit\nDiese Website ist teilweise vereinbar mit WCAG 2.1 AA. Eine formale Prüfung (Audit) hat bislang nicht stattgefunden.\n\nBekannte Einschränkungen (Beispiele)\n- Inhalte externer Anbieter (z. B. Calendly/Google) liegen außerhalb unseres Einflussbereichs.\n- Einzelne Kontraste/Alternativtexte können in Einzelfällen noch optimiert werden.\n\nFeedback & Kontakt\nWenn dir Barrieren auffallen, melde dich bitte:\n\nStand: 15.02.2026"
+      "body": "Diese Erklärung zur Barrierefreiheit gilt für die Website „Heart 2 Heart Somatics“ (Single-Page-App inkl. Dialoge).\n\nWir möchten die Website so barrierearm wie möglich gestalten. Eine formale Prüfung (Audit) hat bislang nicht stattgefunden.\n\nEinschränkungen\nInhalte von Drittanbietern (z. B. Calendly/Google) liegen außerhalb unseres Einflussbereichs.\n\nZuletzt aktualisiert: 2026-02-15"
     }
   },
   "cookies": {
     "title": "Cookies & lokale Speicherung",
-    "description": "Wir verwenden zwingend notwendige Speicherung, um Barrierefreiheits-, Theme- und Spracheinstellungen zu speichern. Optionale Kategorien sind standardmäßig deaktiviert und erfordern Ihre Einwilligung.",
+    "description": "Wir verwenden ausschließlich notwendige Speicherung, um deine Barrierefreiheits-, Theme- und Spracheinstellungen zu merken. Optionale Kategorien sind standardmäßig deaktiviert und erfordern deine Einwilligung.",
     "reject": "Nicht notwendige ablehnen",
     "customize": "Anpassen",
     "accept": "Alle akzeptieren",
@@ -334,15 +335,15 @@
       "description": "Optionale Kategorien anpassen. Notwendige Speicherung ist immer aktiv.",
       "necessary": {
         "label": "Notwendig",
-        "help": "Erforderlich für die Funktion der Website und Ihre Einstellungen."
+        "help": "Erforderlich, damit die Website funktioniert und deine Einstellungen gespeichert werden können."
       },
       "analytics": {
         "label": "Analytics",
-        "help": "Hilft uns, Nutzung zu verstehen. Nur relevant, wenn später Analyse-Tools eingebunden werden."
+        "help": "Hilft uns, Nutzung zu verstehen. Nur relevant, wenn später Analyse-Tools hinzugefügt werden."
       },
       "marketing": {
         "label": "Marketing",
-        "help": "Externe Medien / Marketing-Cookies. Nur relevant, wenn später Drittanbieter-Inhalte eingebunden werden."
+        "help": "Externe Medien / Marketing-Cookies. Nur relevant, wenn später Drittanbieter-Embeds hinzugefügt werden."
       },
       "resetDecision": "Entscheidung zurücksetzen",
       "rejectOptional": "Optional ablehnen",
