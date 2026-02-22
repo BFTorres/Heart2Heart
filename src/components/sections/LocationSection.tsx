@@ -34,7 +34,7 @@ export function LocationSection() {
   // Force label strings (prevents typed i18n returning non-string in some setups)
   const venueLabel = String(t("sections.location.venueLabel", { defaultValue: "Ort" } as any))
   const floorLabel = String(t("sections.location.floorLabel", { defaultValue: "Etage" } as any))
-  const parkingLabel = String(t("sections.location.parkingLabel", { defaultValue: "Parken" } as any))
+  /* const parkingLabel = String(t("sections.location.parkingLabel", { defaultValue: "Parken" } as any)) */
 
   return (
     <section id="location" className="border-border bg-background">
@@ -85,10 +85,6 @@ export function LocationSection() {
                         {postalCity}
                       </p>
 
-                      {parkingHint ? (
-                        <p className="mt-2 text-xs text-muted-foreground">{parkingHint}</p>
-                      ) : null}
-
                       <div className="mt-3 flex justify-end">
                         <Button asChild size="sm">
                           <a href={buildGoogleDirectionsUrl(destination)} target="_blank" rel="noreferrer">
@@ -118,7 +114,7 @@ export function LocationSection() {
                   {postalCity}
                 </p>
 
-                {(venueName || floor || parkingHint) && (
+                {(venueName || floor ) && (
                   <div className="mt-3 grid gap-2 text-sm">
                     {venueName ? (
                       <div className="flex items-start justify-between gap-4">
@@ -134,12 +130,6 @@ export function LocationSection() {
                       </div>
                     ) : null}
 
-                    {parkingHint ? (
-                      <div className="flex items-start justify-between gap-4">
-                        <span className="text-muted-foreground">{parkingLabel}</span>
-                        <span className="text-right">{parkingHint}</span>
-                      </div>
-                    ) : null}
                   </div>
                 )}
               </div>
