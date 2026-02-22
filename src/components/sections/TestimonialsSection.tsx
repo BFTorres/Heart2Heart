@@ -58,6 +58,29 @@ function CountryFlag({ code }: { code: string }) {
     );
   }
 
+  // Saint Lucia (LC): light blue field + white-edged black triangle + small golden triangle
+  if (c === "LC") {
+    return (
+      <svg
+        aria-hidden
+        viewBox="0 0 60 30"
+        className="h-4 w-6 rounded-sm border border-border"
+      >
+        {/* blue field */}
+        <rect width="60" height="30" fill="#66CCFF" />
+
+        {/* outer white triangle (border) */}
+        <polygon points="30,5 15,26 45,26" fill="#FFFFFF" />
+
+        {/* inner black triangle */}
+        <polygon points="30,8 18,26 42,26" fill="#000000" />
+
+        {/* golden triangle in front */}
+        <polygon points="30,14 23,26 37,26" fill="#FCD116" />
+      </svg>
+    );
+  }
+
   // Fallback: show the code in a small pill
   return (
     <span className="rounded-full border border-border px-2 py-0.5 text-xs text-muted-foreground">
