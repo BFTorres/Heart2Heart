@@ -58,10 +58,9 @@
     },
     "intro": {
       "title": "Welcome",
-      "p1": "For overthinkers, sensitive people, or anyone who feels constantly stressed and mentally overloaded. When mental stress becomes normal, the body pays the price.",
-      "p2": "You can't fully relax. You can't stop overthinking. Brain fog. Poor sleep. Constant tension.",
-      "p3": "Through somatic yoga, coaching, and sound healing, we work on the multiple levels where stress patterns are stored , not just talking.",
-      "p4": "So your focus improves. Your sleep gets better. And you get your energy back. By changing the pattern at its root."
+      "p1": "The body pays the price. If relaxing feels impossible \n\nIf you can't stop overthinking If your thoughts feel foggy and your body holds constant tension, a pressure you've learned to live with.\n\nSomewhere along the way, tension became your baseline and you body has adapted to constant activation.",
+      "p2": "But this isn’t your natural state and It doesn’t have to stay this way. Through somatic yoga, coaching, and sound healing, we work on the multiple levels where stress patterns are stored , not just talking.",
+      "p3": "So your focus improves. Your sleep gets better. And you get your energy back. By changing the pattern at its root."
     },
     "courses": {
       "title": "Services",
@@ -86,8 +85,8 @@
         },
         "sound-bath": {
           "title": "Group Sound Bath",
-          "description": "A group sound experience designed to regulate your nervous system and quiet mental noise. Lie down. Receive. Reset.",
-          "details": "A shared sound experience for small groups using singing bowls and rhythmic vibration to bring the body into a state of deep rest.\n\nYou'll be invited to get comfortable with cushions and blankets while sound creates a safe container for slowing down. This is ideal if you want to decompress, reset, and feel more grounded. No prior experience needed, just come as you are and allow yourself to receive.",
+          "description": "A group sound experience designed to regulate your nervous system and quiet mental noise. Lie down. Receive. Reset.",
+          "details": "A shared sound experience for small groups using singing bowls and rhythmic vibration to bring the body into a state of deep rest.\n\nYou'll be invited to get comfortable with cushions and blankets while sound creates a safe container for slowing down. This is ideal if you want to decompress, reset, and feel more grounded. No prior experience needed, just come as you are and allow yourself to receive.",
           "meta": {
             "duration": "60 minutes",
             "format": "In person (studio)",

@@ -13,7 +13,7 @@ export function IntroSection() {
           <p>{t("sections.intro.p1")}</p>
           <p>{t("sections.intro.p2")}</p>
           <p>{t("sections.intro.p3")}</p>
-          <p>{t("sections.intro.p4")}</p>
+          {/* <p>{t("sections.intro.p4")}</p> */}
         </div>
       </Container>
     </section>
