@@ -12,7 +12,7 @@
     "bookNow": "Book now",
     "joinNewsletter": "Get workshop updates",
     "readFullStory": "Read the full story",
-    "freeWelcomeSession": "Let's talk",
+    "freeWelcomeSession": "Book a free call",
     "requestBusinessPackage": "Request a business package"
   },
   "nav": {
@@ -197,7 +197,7 @@
     },
     "pricing": {
       "title": "Packages",
-      "subtitle": "Everything is tailored to your needs. We'll build your package together—based on your goals, schedule, and what feels supportive.",
+      "subtitle": "Everything is tailored to your needs. We build your package together - based on your goals, schedule, and a pace that feels right for you. Always respecting where you are in life.",
       "businessEmail": {
         "subject": "Business package inquiry — Heart 2 Heart Somatics",
         "body": "Hi Mariem,\n\nI'm interested in your Business Packages.\n\nCompany/Team:\nWhat you're looking for (e.g., burnout prevention, business yoga, workshop, team building, training):\nPreferred format (on-site / online):\nLocation (if on-site):\nApprox. group size:\nPreferred timeframe:\n\nThank you!\n"
@@ -211,7 +211,7 @@
             "b3": "Guidance toward lasting transformation.",
             "b4": ""
           },
-          "hint": "Click the button below to book your free welcome session. After the call, we'll build your personal package together based on your needs."
+          "hint": "Let's begin with a free discovery call. Together, we create a personalized path designed just for you. Book your call below."
         },
         "business": {
           "title": "Business Packages",

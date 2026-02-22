@@ -5,7 +5,8 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Heart2Heart/",
+  /* base: "/Heart2Heart/", */
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
