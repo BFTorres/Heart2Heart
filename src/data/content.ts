@@ -1,6 +1,7 @@
 export const SITE = {
   brand: "Heart 2 Heart Somatics",
-  calendlyUrl: "https://calendly.com/heart2heartsomatics/",
+  calendlyUrl: "https://calendly.com/heart2heartsomatics/", 
+/*   calendlyFree: */
   newsletterUrl:
     (import.meta.env.VITE_NEWSLETTER_URL as string) ??
     "https://de72348c.sibforms.com/serve/MUIFAF21N5rXe68vEBCjdWHQW2HCUPWB_GnTg85IT9ZIXr_h6W24Zeayhm6kpnQHYLxWDlEw5h_q5M56MCOH1lBb-es60tkHPEqRN8MxRrkVvcb7-wrzq3yKnGuBehDnO6EStoyZW0Af3W1V2BEFppDCFfpZyZc3jZSqN1uVjCrBdi78Yj4ZLZMhjp7IVaowz-f23KYKVpphKNi3EA==",

@@ -29,6 +29,11 @@
   },
   "sections": {
     "location": {
+      "mapBlockedTitle": "Interactive map is disabled",
+      "mapBlockedBody": "To protect your privacy, the interactive map loads external map tiles only after you allow External media.",
+      "loadMapCta": "Load interactive map",
+      "openCookieSettingsCta": "Cookie settings",
+      "privacyNote": "The interactive map loads external map tiles only after consent (External media). The “Open in Google Maps” button opens Google in a new tab.",
       "labels": {
         "venueLabel": "Venue",
         "parkingLabel": "Parking",
@@ -40,8 +45,7 @@
       "addressLabel": "Address",
       "markerAria": "Open location details",
       "directionsCta": "Directions",
-      "openInMaps": "Open in Google Maps",
-      "privacyNote": "The interactive map loads external map tiles (no Google embed). Clicking the button opens Google Maps in a new tab."
+      "openInMaps": "Open in Google Maps"
     },
     "hero": {
       "title": "Yoga, Somatic Coaching & Sound Healing",
@@ -320,13 +324,13 @@
       "trigger": "Imprint",
       "title": "Legal notice (Imprint)",
       "desc": "Provider information",
-      "body": "Provider information (Germany)\n\nHeart 2 Heart Somatics\nMariem Werhani\nMercedesstr. 3\n30453 Hannover\nGermany\n\nContact\nEmail: info@heart2heartsomatics.com\nPhone: 01515-5351628\n\nLegal form\nSole proprietor (Germany)\n\nVAT ID / Business ID (only if available)\nVAT ID: [IF AVAILABLE]\nBusiness ID: [IF AVAILABLE]\n\nConsumer dispute resolution (§ 36 VSBG)\nWe are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.\n\nNote\nThe EU ODR platform is discontinued since 20 July 2025."
+      "body": "Provider information (Germany)\n\nHeart 2 Heart Somatics\nMariem Werhani\nMercedesstraße 3\n30453 Hannover\nGermany\n\nContact\nEmail: info@heart2heartsomatics.com\nPhone: 01515-5351628\n\nLegal form\nSole proprietor (Kleingewerbe)\n\nVAT\n[Note: Small-business VAT scheme under § 19 UStG (Germany) — no VAT is shown on invoices.]\n\nConsumer dispute resolution (§ 36 VSBG)\nWe are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.\n\nNote\nThe EU Online Dispute Resolution (ODR) platform has been discontinued as of 20 July 2025.\n\nLast updated: 2026-02-22"
     },
     "privacy": {
       "trigger": "Privacy",
       "title": "Privacy policy",
       "desc": "Data protection information",
-      "body": "1. Controller\nMariem Werhani (Heart 2 Heart Somatics)\nMercedesstr. 3, 30453 Hannover, Germany\nEmail: info@heart2heartsomatics.com (subject: “Privacy”)\nPhone: 01515-5351628\n\n2. Summary\nThis is a static single-page website. We do not use analytics or advertising trackers.\n\n3. Hosting (GitHub Pages)\nThe site is delivered via GitHub Pages. When you access the site, technical connection data (e.g., IP address, device/browser data, time of access) is processed for delivery and security.\n\n4. Local storage (settings)\nDepending on your choices, the site stores language/theme/accessibility settings in your browser to provide the requested functionality.\n\n5. External links\nIf you open external links (e.g., Calendly or Google), the privacy policy of that provider applies.\n\nLast updated: 2026-02-15"
+      "body": "1. Verantwortliche Stelle (Art. 4 Nr. 7 DSGVO)\nMariem Werhani – Heart 2 Heart Somatics\nMercedesstraße 3, 30453 Hannover, Deutschland\nE-Mail: info@heart2heartsomatics.com (Betreff: „Datenschutz“)\nTelefon: 01515-5351628\n\n2. Überblick\nDies ist eine Website (Single-Page-App). Wir verwenden keine Analyse- oder Werbe-Tracker.\n\n3. Hosting (Netlify) / Auslieferung\nDie Website wird über Netlify bereitgestellt (für Demos ggf. zusätzlich über GitHub Pages). Beim Aufruf der Website werden technisch notwendige Verbindungsdaten verarbeitet (z. B. IP-Adresse, Datum/Uhrzeit, angeforderte Dateien, Geräte-/Browser-Informationen) zur Auslieferung, Stabilität und Sicherheit.\nRechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren, stabilen Betrieb).\n\n4. Domain / DNS (Squarespace)\nDie Domain wird über Squarespace verwaltet. Im Rahmen der Domainauflösung und Bereitstellung fallen technische Verarbeitungen an.\nRechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.\n\n5. Lokale Speicherung (Cookies / Local Storage)\nDiese Website speichert lokal auf deinem Gerät Einstellungen, um gewünschte Funktionen bereitzustellen:\n- Sprache (z. B. Schlüssel: i18nextLng)\n- Barrierefreiheit/Theme (z. B. Schlüssel: h2h_accessibility)\n- Cookie-Entscheidung (z. B. Schlüssel: h2h_cookie_consent)\nWir erstellen keine Nutzungsprofile.\nRechtsgrundlage: § 25 Abs. 2 TDDDG (soweit technisch erforderlich) sowie Art. 6 Abs. 1 lit. f DSGVO / Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung gewünschter Funktionen).\nSpeicherdauer: bis zur Löschung im Browser oder über „Entscheidung zurücksetzen“.\n\n6. Interaktive Karte (MapLibre / externe Kartenkacheln) – nur nach Einwilligung\nDie Standort-Karte ist standardmäßig deaktiviert. Erst wenn du in den Cookie-Einstellungen „Externe Inhalte“ aktivierst (oder auf „Interaktive Karte laden“ klickst), werden Kartenstile/-kacheln von externen Anbietern (z. B. basemaps.cartocdn.com / CARTO) geladen.\n\nBeim Laden der Karte werden technisch notwendige Daten an den jeweiligen Anbieter übertragen (insbesondere IP-Adresse sowie Request-/Geräteinformationen). Ohne Einwilligung werden keine externen Kartenkacheln geladen.\n\nRechtsgrundlage (bei aktivierter Karte): § 25 Abs. 1 TDDDG (Einwilligung) sowie Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).\nWiderruf: Du kannst deine Einwilligung jederzeit über „Cookie-Einstellungen“ widerrufen; danach wird die Karte wieder blockiert.\n\nAlternative: Du kannst jederzeit den Button „In Google Maps öffnen“ nutzen (externer Link).\n\n7. Externe Links (Google Maps, Calendly, Newsletter)\nBeim Klick auf externe Links verlässt du unsere Website. Ab diesem Moment gelten die Datenschutzhinweise des jeweiligen Anbieters.\n- Terminbuchung: Calendly (nur Link in neuem Tab, kein Embed)\n- Routenplanung: Google Maps (nur Link in neuem Tab, kein Embed)\n- Newsletter: Brevo (derzeit nur als externer Link, kein eingebettetes Formular)\n\n8. Deine Rechte (Art. 15–21 DSGVO)\nDu hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch.\n\n9. Beschwerderecht (Niedersachsen)\nDu hast das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren.\n\nStand: 22.02.2026"
     },
     "accessibility": {
       "trigger": "Accessibility",
@@ -354,8 +358,8 @@
         "help": "Helps us understand usage. Only applies if analytics tools are added later."
       },
       "marketing": {
-        "label": "Marketing",
-        "help": "External media / marketing cookies. Only applies if third-party embeds are added later."
+        "label": "External media",
+        "help": "Enables third-party content such as interactive maps and embeds. Only loads after you consent."
       },
       "resetDecision": "Reset decision",
       "rejectOptional": "Reject optional",

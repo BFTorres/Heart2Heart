@@ -29,6 +29,11 @@
   },
   "sections": {
     "location": {
+      "mapBlockedTitle": "Interaktive Karte ist deaktiviert",
+      "mapBlockedBody": "Zum Schutz deiner Privatsphäre lädt die interaktive Karte externe Kartenkacheln erst, nachdem du „Externe Inhalte“ erlaubt hast.",
+      "loadMapCta": "Interaktive Karte laden",
+      "openCookieSettingsCta": "Cookie-Einstellungen",
+      "privacyNote": "Die interaktive Karte lädt externe Kartenkacheln erst nach Einwilligung („Externe Inhalte“). Der Button „In Google Maps öffnen“ öffnet Google in einem neuen Tab.",
       "labels": {
         "venueLabel": "Ort",
         "parkingLabel": "Parken",
@@ -40,8 +45,7 @@
       "addressLabel": "Adresse",
       "markerAria": "Standortdetails öffnen",
       "directionsCta": "Wegbeschreibung",
-      "openInMaps": "In Google Maps öffnen",
-      "privacyNote": "Die interaktive Karte lädt externe Kartenkacheln (kein Google-Embed). Ein Klick auf den Button öffnet Google Maps in einem neuen Tab."
+      "openInMaps": "In Google Maps öffnen"
     },
     "hero": {
       "title": "Yoga, Somatisches Coaching & Sound Healing",
@@ -314,13 +318,13 @@
       "trigger": "Impressum",
       "title": "Impressum",
       "desc": "Anbieterinformationen",
-      "body": "Anbieterinformationen (Deutschland)\n\nHeart 2 Heart Somatics\nMariem Werhani\nMercedesstr. 3\n30453 Hannover\nDeutschland\n\nKontakt\nE-Mail: info@heart2heartsomatics.com\nTelefon: 01515-5351628\n\nRechtsform\nEinzelunternehmerin (Deutschland)\n\nUSt-IdNr. / Wirtschafts-IdNr. (nur falls vorhanden)\nUSt-IdNr.: [FALLS VORHANDEN]\nWirtschafts-IdNr.: [FALLS VORHANDEN]\n\nVerbraucherstreitbeilegung (§ 36 VSBG)\nWir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.\n\nHinweis\nDie EU-OS-Plattform ist seit dem 20. Juli 2025 eingestellt."
+      "body": "Angaben gemäß § 5 DDG\n\nHeart 2 Heart Somatics\nMariem Werhani\nMercedesstraße 3\n30453 Hannover\nDeutschland\n\nKontakt\nE-Mail: info@heart2heartsomatics.com\nTelefon: 01515-5351628\n\nRechtsform\nEinzelunternehmerin (Kleingewerbe)\n\nUmsatzsteuer\n[Hinweis: Kleinunternehmerin gemäß § 19 UStG - es wird keine Umsatzsteuer ausgewiesen.]\n\nVerbraucherstreitbeilegung (§ 36 VSBG)\nWir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.\n\nHinweis\nDie EU-OS-Plattform (Online-Streitbeilegung/ODR) ist seit dem 20. Juli 2025 eingestellt.\n\nStand: 22.02.2026"
     },
     "privacy": {
       "trigger": "Datenschutz",
       "title": "Datenschutzerklärung",
       "desc": "Informationen zum Datenschutz",
-      "body": "1. Verantwortliche Stelle\nMariem Werhani (Heart 2 Heart Somatics)\nMercedesstr. 3, 30453 Hannover, Deutschland\nE-Mail: info@heart2heartsomatics.com (Betreff: „Datenschutz“)\nTelefon: 01515-5351628\n\n2. Überblick\nDies ist eine statische Single-Page-Website. Wir verwenden keine Tracking- oder Werbe-Tracker.\n\n3. Hosting (GitHub Pages)\nDie Website wird über GitHub Pages ausgeliefert. Beim Aufruf werden technische Verbindungsdaten (z. B. IP-Adresse, Geräte-/Browserdaten, Zeitpunkt des Zugriffs) zur Auslieferung und Sicherheit verarbeitet.\n\n4. Lokale Speicherung (Einstellungen)\nJe nach Auswahl speichert die Website Sprach-/Theme-/Barrierefreiheits-Einstellungen in deinem Browser, um die gewünschte Funktion bereitzustellen.\n\n5. Externe Links\nWenn du externe Links öffnest (z. B. Calendly oder Google), gilt die Datenschutzerklärung des jeweiligen Anbieters.\n\nZuletzt aktualisiert: 2026-02-15"
+      "body": "1. Controller (Art. 4(7) GDPR)\nMariem Werhani – Heart 2 Heart Somatics\nMercedesstraße 3, 30453 Hannover, Germany\nEmail: info@heart2heartsomatics.com (subject: “Privacy”)\nPhone: 01515-5351628\n\n2. Summary\nThis is a single-page website. We do not use analytics or advertising trackers.\n\n3. Hosting / delivery (Netlify)\nThe website is provided via Netlify (and may additionally be delivered via GitHub Pages for demos). When you access the site, technical connection data may be processed (e.g., IP address, timestamp, requested files, device/browser information) for delivery, stability, and security.\nLegal basis: Art. 6(1)(f) GDPR (legitimate interest in secure, stable operation).\n\n4. Domain / DNS (Squarespace)\nThe domain is managed via Squarespace. Technical processing occurs as part of domain resolution and availability.\nLegal basis: Art. 6(1)(f) GDPR.\n\n5. Local storage (cookies / localStorage)\nTo provide requested features, the site stores preferences locally on your device:\n- Language (e.g., key: i18nextLng)\n- Accessibility/theme preferences (e.g., key: h2h_accessibility)\n- Cookie decision (e.g., key: h2h_cookie_consent)\nNo usage profiles are created.\nLegal basis: German TDDDG § 25(2) (strictly necessary storage/access where applicable) and Art. 6(1)(f) GDPR / Art. 6(1)(b) GDPR.\nRetention: until you delete it in your browser or use “Reset decision”.\n\n6. Interactive map (MapLibre / external map tiles) – only after consent\nThe location map is disabled by default. It loads external map styles/tiles from third-party providers (e.g., basemaps.cartocdn.com / CARTO) only after you enable “External media” in the cookie settings (or click “Load interactive map”).\n\nWhen the map loads, technically necessary data is transmitted to the provider (in particular your IP address and request/device information). Without consent, no external map tiles are loaded.\n\nLegal basis (when enabled): German TDDDG § 25(1) (consent) and Art. 6(1)(a) GDPR (consent).\nWithdrawal: You can withdraw your consent at any time via “Cookie settings”; the map will be blocked again.\n\nAlternative: You can always use the “Open in Google Maps” button (external link).\n\n7. External links (Google Maps, Calendly, newsletter)\nWhen you click external links, you leave our website. The respective provider’s privacy policy then applies.\n- Booking: Calendly (link only, no embed)\n- Directions: Google Maps (link only, no embed)\n- Newsletter: Brevo (currently link only, no embedded form)\n\n8. Your rights (Art. 15–21 GDPR)\nYou have the right to access, rectification, erasure, restriction, data portability, and objection.\n\n9. Complaints (Lower Saxony, Germany)\nYou may lodge a complaint with a supervisory authority.\n\nLast updated: 2026-02-22"
     },
     "accessibility": {
       "trigger": "Barrierefreiheit",
@@ -348,8 +352,8 @@
         "help": "Hilft uns, Nutzung zu verstehen. Nur relevant, wenn später Analyse-Tools hinzugefügt werden."
       },
       "marketing": {
-        "label": "Marketing",
-        "help": "Externe Medien / Marketing-Cookies. Nur relevant, wenn später Drittanbieter-Embeds hinzugefügt werden."
+        "label": "Externe Inhalte",
+        "help": "Ermöglicht Inhalte von Drittanbietern wie interaktive Karten und Embeds. Wird erst nach deiner Einwilligung geladen."
       },
       "resetDecision": "Entscheidung zurücksetzen",
       "rejectOptional": "Optional ablehnen",
