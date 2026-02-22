@@ -29,7 +29,7 @@ export function LocationSection() {
       : `${addressLine1}, ${postalCity}, ${country}`
   }, [])
 
-  const { lat, lng, name, addressLine1, postalCity, venueName, floor, parkingHint } = SITE.location
+  const { lat, lng, name, addressLine1, postalCity, venueName, floor } = SITE.location
 
   // Force label strings (prevents typed i18n returning non-string in some setups)
   const venueLabel = String(t("sections.location.venueLabel", { defaultValue: "Ort" } as any))
