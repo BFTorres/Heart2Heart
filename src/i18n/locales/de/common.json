@@ -360,7 +360,7 @@
         "label": "Externe Inhalte",
         "help": "Ermöglicht Inhalte von Drittanbietern wie interaktive Karten und Embeds. Wird erst nach deiner Einwilligung geladen."
       },
-      "resetDecision": "Entscheidung zurücksetzen",
+      "resetDecision": "Zurücksetzen",
       "rejectOptional": "Optional ablehnen",
       "acceptAll": "Alle akzeptieren",
       "lastUpdated": "Zuletzt aktualisiert: {{date}}"
