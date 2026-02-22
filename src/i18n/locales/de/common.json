@@ -27,6 +27,16 @@
     "closeMenu": "Menü schließen"
   },
   "sections": {
+    "location": {
+      "title": "Standort",
+      "subtitle": "Finde das Studio in Hannover und öffne bei Bedarf die Route.",
+      "cardTitle": "Studio besuchen",
+      "addressLabel": "Adresse",
+      "markerAria": "Standortdetails öffnen",
+      "directionsCta": "Route starten",
+      "openInMaps": "In Google Maps öffnen",
+      "privacyNote": "Die interaktive Karte lädt externe Kartendaten (kein Google-Embed). Beim Klick auf den Button öffnet sich Google Maps in einem neuen Tab."
+    },
     "hero": {
       "title": "Yoga & Somatics für mehr Erdung und innere Balance.",
       "body": "Unterstützung für Körperwahrnehmung, Stressregulation und innere Balance - mit Yoga, somatischen Sessions, Coaching, Sound Healing und Workshops (online & vor Ort).",
@@ -34,7 +44,7 @@
       "google": {
         "ratingValue": "5",
         "reviewCountValue": "5",
-        "url": "https://share.google/VLcKHycw2OeSovrXW",
+        "url": "https://www.google.com/maps/search/?api=1&query=Heart%202%20Heart%20Somatics%2C%20Mercedesstra%C3%9Fe%203%2C%2030453%20Hannover",
         "text": "{{rating}} auf Google ({{count}} Rezensionen)",
         "linkLabel": "Rezensionen ansehen",
         "ariaLabel": "{{rating}} von 5 auf Google, basierend auf {{count}} Rezensionen"
@@ -138,17 +148,38 @@
         "t1": {
           "quote": "Mariems Sound Healing fühlte sich an wie träumen und fliegen - ich kam erschöpft an und ging tief erholt, fast wie nach einem nährenden Urlaub. Ihre sanfte Stimme und der warme Raum haben mein Herz berührt.",
           "name": "Jolin",
-          "role": "Tibetanisches Sound Healing / Deutschland"
+          "role": "Tibetanisches Sound Healing",
+          "country": "DE"
         },
         "t2": {
           "quote": "Die Arbeit mit Mariem war zutiefst transformierend - sie hält den Raum mit seltener Wärme, Mitgefühl und intuitiver Weisheit. Ihre Verbindung aus IFS und somatischer Arbeit hat mir geholfen, mich auf eine sehr tiefe Weise wieder mit mir selbst zu verbinden. Wenn du jemanden suchst, der wirklich mit ganzem Herzen begleitet und zugleich die Kompetenz und Erfahrung mitbringt, kann ich Mariem von Herzen empfehlen!",
           "name": "Omnia",
-          "role": "Internal Family Systems (IFS) / VAE"
+          "role": "Internal Family Systems (IFS)",
+          "country": "AE"
         },
         "t3": {
           "quote": "Mariems Sound Bath während der Mondfinsternis war ein kraftvolles Ritual - mein Körper und meine Seele haben noch lange in Harmonie nachgeschwungen. Ich spürte Ausrichtung, Klarheit und eine tiefe Verbindung zu meiner weiblichen Kraft.",
           "name": "Monika",
-          "role": "Sound Bath / Deutschland"
+          "role": "Sound Bath",
+          "country": "DE"
+        },
+        "t4": {
+          "quote": "...",
+          "name": "Rena",
+          "role": "Somatic Coaching",
+          "country": "GB"
+        },
+        "t5": {
+          "quote": "...",
+          "name": "Pid'or",
+          "role": "Retreat",
+          "country": "GB"
+        },
+        "t6": {
+          "quote": "...",
+          "name": "F. Joseph",
+          "role": "Somatic Coaching",
+          "country": "DE"
         }
       }
     },
@@ -167,7 +198,8 @@
             "b2": "Wähle aus Sound Healing, Yoga & Meditation, Somatischem Coaching und IFS.",
             "b3": "Eine klare Struktur mit sanftem Tempo und guter Begleitung.",
             "b4": "Starte mit einem kostenlosen Kennenlerngespräch, um Ziele und nächste Schritte zu klären."
-          }
+          },
+          "hint": "Mit dem Button unten buchst du das kostenlose Kennenlerngespräch. Danach stellen wir dein persönliches Paket gemeinsam zusammen – passend zu deinem Bedarf."
         },
         "business": {
           "title": "Business-Pakete",
@@ -177,7 +209,8 @@
             "b3": "Workshops und Trainings - zugeschnitten auf euer Unternehmen.",
             "b4": "Teambuilding-Formate mit embodied practices.",
             "b5": "Individueller Plan und Angebot - je nach Ziel, Zeitraum und Gruppengröße."
-          }
+          },
+          "hint": "Mit dem Button unten schreibst du Mariem eine E-Mail. Du erhältst anschließend ein individuelles Angebot – passend zu Ziel, Zeitraum und Gruppengröße."
         }
       }
     },

@@ -121,8 +121,6 @@
   color: var(--brand);
 }
 
-
-
 /* High contrast - light */
 .app-theme-contrast-light {
   color-scheme: light;
@@ -249,7 +247,6 @@ body {
 .a11y-font-size-lg { font-size: 125%; }     /* 20px */
 .a11y-font-size-xl { font-size: 137.5%; }   /* 22px */
 
-
 .a11y-font-family-system body {
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 }
@@ -287,4 +284,13 @@ body {
   animation-iteration-count: 1 !important;
   transition-duration: 0.01ms !important;
   scroll-behavior: auto !important;
+}
+
+@layer base {
+  .maplibregl-popup-content {
+    @apply bg-transparent! shadow-none! p-0! rounded-none!;
+  }
+  .maplibregl-popup-tip {
+    @apply hidden!;
+  }
 }

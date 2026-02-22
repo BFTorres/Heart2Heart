@@ -14,6 +14,7 @@ import { FAQSection } from "@/components/sections/FAQSection"
 import { useEffect } from "react"
 import { useTranslation } from "react-i18next"
 import { CoursesSectionMedia } from "@/components/sections/CoursesSectionMedia"
+import { LocationSection } from "@/components/sections/LocationSection"
 
 
 export default function App() {
@@ -42,6 +43,7 @@ export default function App() {
         <TestimonialsSection />
         <PricingSection />
         <FAQSection />
+        <LocationSection />
       </main>
 
       <Footer />

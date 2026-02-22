@@ -16,8 +16,8 @@ export function PricingSection() {
 
   const businessMailto = buildMailto(
     SITE.contactEmail,
-    t("sections.pricing.businessEmail.subject"),
-    t("sections.pricing.businessEmail.body"),
+    String(t("sections.pricing.businessEmail.subject")),
+    String(t("sections.pricing.businessEmail.body")),
   )
 
   return (
@@ -28,16 +28,17 @@ export function PricingSection() {
 
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           {PRICING.map((plan) => {
-            const href =
-              plan.ctaType === "calendly" ? SITE.calendlyUrl : businessMailto
-
+            const href = plan.ctaType === "calendly" ? SITE.calendlyUrl : businessMailto
             const isExternal = plan.ctaType === "calendly"
 
+            // New: short helper text under bullets
+            const hintKey =
+              plan.id === "bundles"
+                ? "sections.pricing.plans.bundles.hint"
+                : "sections.pricing.plans.business.hint"
+
             return (
-              <Card
-                key={plan.id}
-                className={`rounded-2xl ${plan.featured ? "border-2" : ""}`}
-              >
+              <Card key={plan.id} className={`rounded-2xl ${plan.featured ? "border-2" : ""}`}>
                 <CardHeader className="space-y-1">
                   <CardTitle className="text-base">{t(plan.titleKey)}</CardTitle>
                 </CardHeader>
@@ -48,6 +49,9 @@ export function PricingSection() {
                       <li key={k}>{t(k)}</li>
                     ))}
                   </ul>
+
+                  {/* New hint */}
+                  <p className="text-xs text-muted-foreground">{t(hintKey)}</p>
 
                   <div className="flex justify-end">
                     <Button asChild>

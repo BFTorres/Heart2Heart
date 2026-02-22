@@ -28,6 +28,16 @@
     "closeMenu": "Close menu"
   },
   "sections": {
+    "location": {
+      "title": "Location",
+      "subtitle": "Find the studio in Hannover and open directions when you’re ready.",
+      "cardTitle": "Visit the studio",
+      "addressLabel": "Address",
+      "markerAria": "Open location details",
+      "directionsCta": "Directions",
+      "openInMaps": "Open in Google Maps",
+      "privacyNote": "The interactive map loads external map tiles (no Google embed). Clicking the button opens Google Maps in a new tab."
+    },
     "hero": {
       "title": "Yoga & Somatics for a grounded, embodied life.",
       "body": "Support for body awareness, stress regulation, and inner balance—through yoga, somatic sessions, coaching, sound healing, and workshops (online & in-person).",
@@ -35,7 +45,7 @@
       "google": {
         "ratingValue": "5",
         "reviewCountValue": "5",
-        "url": "https://share.google/VLcKHycw2OeSovrXW",
+        "url": "https://www.google.com/maps/search/?api=1&query=Heart%202%20Heart%20Somatics%2C%20Mercedesstra%C3%9Fe%203%2C%2030453%20Hannover",
         "text": "{{rating}} on Google ({{count}} reviews)",
         "linkLabel": "Read reviews",
         "ariaLabel": "{{rating}} out of 5 on Google, based on {{count}} reviews"
@@ -139,17 +149,20 @@
         "t1": {
           "quote": "Mariem's sound healing felt like dreaming and flying - I arrived tired and left deeply rested, almost like after a nourishing holiday. Her gentle voice and warm space touched my heart",
           "name": "Jolin",
-          "role": "Tibetan Sound Healing / Germany"
+          "role": "Tibetan Sound Healing",
+          "country": "🇩🇪"
         },
         "t2": {
           "quote": "Working with Mariem has been deeply transformative - she holds space with rare warmth, compassion, and intuitive wisdom. Her blend of IFS and somatic work helped me reconnect with myself in profound ways. If you're looking for someone who genuinely cares and has the wisdom and skills to support your healing, i can't recommend Mariem highly enough!",
           "name": "Omnia",
-          "role": "Internal Family System (IFS) / UAE"
+          "role": "Internal Family System (IFS)",
+          "country": "🇦🇪"
         },
         "t3": {
           "quote": "Mariem's sound bath during the lunar eclipse was a powerful ritual that left my body and soul vibrating in harmony. I felt realignment, clarity, and deep feminine connection return to me.",
           "name": "Monika",
-          "role": "Sound bath / Germany"
+          "role": "Sound bath",
+          "country": "🇩🇪"
         }
       }
     },
@@ -168,7 +181,8 @@
             "b2": "Choose from Sound Healing, Yoga & Meditation, Somatic Coaching, and IFS.",
             "b3": "A supportive structure with clear steps and gentle pacing.",
             "b4": "Start with a free welcome session to clarify goals and next steps."
-          }
+          },
+          "hint": "Click the button below to book your free welcome session. After the call, we’ll build your personal package together based on your needs."
         },
         "business": {
           "title": "Business Packages",
@@ -178,7 +192,8 @@
             "b3": "Workshops and trainings tailored to your organization.",
             "b4": "Team building experiences with embodied practices.",
             "b5": "Custom plan and quote based on your goals, timeframe, and group size."
-          }
+          },
+          "hint": "Click the button below to email Mariem. You’ll receive a tailored proposal based on your team goals, timeframe, and group size."
         }
       }
     },

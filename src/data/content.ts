@@ -12,6 +12,16 @@ export const SITE = {
   calendlyUrl: "https://calendly.com/heart2heartsomatics/",
   newsletterUrl: (import.meta.env.VITE_NEWSLETTER_URL as string) ?? "https://de72348c.sibforms.com/serve/MUIFAF21N5rXe68vEBCjdWHQW2HCUPWB_GnTg85IT9ZIXr_h6W24Zeayhm6kpnQHYLxWDlEw5h_q5M56MCOH1lBb-es60tkHPEqRN8MxRrkVvcb7-wrzq3yKnGuBehDnO6EStoyZW0Af3W1V2BEFppDCFfpZyZc3jZSqN1uVjCrBdi78Yj4ZLZMhjp7IVaowz-f23KYKVpphKNi3EA==",
   contactEmail: (import.meta.env.VITE_CONTACT_EMAIL as string) ?? "info@heart2heartsomatics.com",
+
+  location: {
+    name: "Heart 2 Heart Somatics",
+    addressLine1: "Mercedesstraße 3",
+    postalCity: "30453 Hannover",
+    country: "Germany",
+    // from Google route URL for Mercedesstraße 3 :contentReference[oaicite:3]{index=3}
+    lat: 52.34777,
+    lng: 9.709247,
+  },
 }
 
 
@@ -97,6 +107,24 @@ export const TESTIMONIALS = [
     nameKey: "sections.voices.items.t3.name",
     roleKey: "sections.voices.items.t3.role",
   },
+  {
+    id: "t4",
+    quoteKey: "sections.voices.items.t4.quote",
+    nameKey: "sections.voices.items.t4.name",
+    roleKey: "sections.voices.items.t4.role",
+  },
+  {
+    id: "t5",
+    quoteKey: "sections.voices.items.t5.quote",
+    nameKey: "sections.voices.items.t5.name",
+    roleKey: "sections.voices.items.t5.role",
+  },
+  {
+    id: "t6",
+    quoteKey: "sections.voices.items.t6.quote",
+    nameKey: "sections.voices.items.t6.name",
+    roleKey: "sections.voices.items.t6.role",
+  }
 ] as const
 
 export const PRICING = [

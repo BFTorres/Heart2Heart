@@ -86,7 +86,7 @@ export function CoursesSectionMedia() {
                       )}
 
                       {/* Soft overlay */}
-                      <div className="absolute inset-0 bg-gradient-to-r from-background/0 via-background/0 to-background/10" />
+                      <div className="absolute inset-0 bg-linear-to-r from-background/0 via-background/0 to-background/10" />
                     </div>
 
                     {/* Text + button */}
