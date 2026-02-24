@@ -1,0 +1,26 @@
+{
+  "name": "Heart 2 Heart Somatics",
+  "short_name": "Heart2Heart",
+  "description": "Somatic coaching, sound healing, and workshops by Heart 2 Heart Somatics.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "lang": "en",
+  "dir": "ltr"
+}

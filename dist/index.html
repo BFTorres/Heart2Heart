@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Primary SEO -->
     <title>Heart 2 Heart Somatics | Somatic Coaching, Yoga & Sound Healing in Hannover</title>
     <meta
       name="description"
@@ -12,14 +11,18 @@
     />
     <meta name="robots" content="index,follow" />
 
-    <!-- Canonical: set to your current live URL (GitHub Pages demo). Replace once you have a custom domain. -->
-    <link rel="canonical" href="https://bftorres.github.io/Heart2Heart/" />
+    <!-- Canonical (must match your real public URL) -->
+    <link rel="canonical" href="https://heart2heartsomatics.com/" />
 
-    <!-- Favicons (served from /public). / respects Vite base for GitHub Pages -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- Favicons + PWA (DO NOT use /public/ in Vite) -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-48.png" sizes="48x48" type="image/png" />
+    <link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- Open Graph -->
+    <!-- Open Graph (social previews; not Google favicon) -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Heart 2 Heart Somatics" />
     <meta property="og:title" content="Heart 2 Heart Somatics | Somatic Coaching, Yoga & Sound Healing in Hannover" />
@@ -27,51 +30,48 @@
       property="og:description"
       content="Somatic support for stress regulation, body connection, and inner balance. 1:1 sessions and group offerings in Hannover and online."
     />
-    <meta property="og:url" content="https://bftorres.github.io/Heart2Heart/" />
-    <!-- Put an actual image file into /public/og-image.jpg (recommended 1200x630) -->
-    <meta property="og:image" content="https://bftorres.github.io/Heart2Heart/og-image.jpg" />
+    <meta property="og:url" content="https://heart2heartsomatics.com/" />
+    <meta property="og:image" content="https://heart2heartsomatics.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Heart 2 Heart Somatics" />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Heart 2 Heart Somatics" />
-    <meta
-      name="twitter:description"
-      content="Somatic support for stress regulation, body connection, and inner balance. Hannover + online."
-    />
-    <meta name="twitter:image" content="https://bftorres.github.io/Heart2Heart/og-image.jpg" />
-
-    <!-- Hreflang (single URL SPA, but still helpful for intent) -->
-    <link rel="alternate" hreflang="en" href="https://bftorres.github.io/Heart2Heart/" />
-    <link rel="alternate" hreflang="de" href="https://bftorres.github.io/Heart2Heart/" />
-    <link rel="alternate" hreflang="x-default" href="https://bftorres.github.io/Heart2Heart/" />
-
-    <!-- Structured Data: ProfessionalService -->
+    <!-- Structured Data (keep URLs consistent; logo must be crawlable and >=112x112) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Heart 2 Heart Somatics",
-        "url": "https://bftorres.github.io/Heart2Heart/",
-        "description": "Somatic support for stress regulation, body connection, and inner balance. 1:1 sessions and group offerings in Hannover and online.",
-        "areaServed": { "@type": "Country", "name": "Germany" },
-        "inLanguage": ["en", "de"],
-        "provider": {
-          "@type": "Person",
-          "name": "Mariem Werhani"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Mercedesstr. 3",
-          "postalCode": "30453",
-          "addressLocality": "Hannover",
-          "addressCountry": "DE"
-        },
-        "email": "info@heart2heartsomatics.com",
-        "sameAs": []
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://heart2heartsomatics.com/#org",
+            "name": "Heart 2 Heart Somatics",
+            "url": "https://heart2heartsomatics.com/",
+            "logo": "https://heart2heartsomatics.com/brand/logo-512.png",
+            "sameAs": ["https://www.instagram.com/heart2heartsomatics/"]
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://heart2heartsomatics.com/#service",
+            "name": "Heart 2 Heart Somatics",
+            "url": "https://heart2heartsomatics.com/",
+            "description": "Somatic support for stress regulation, body connection, and inner balance. 1:1 sessions and group offerings in Hannover and online.",
+            "areaServed": { "@type": "City", "name": "Hannover" },
+            "inLanguage": ["en", "de"],
+            "provider": { "@type": "Person", "name": "Mariem Werhani" },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Mercedesstraße 3",
+              "postalCode": "30453",
+              "addressLocality": "Hannover",
+              "addressCountry": "DE"
+            },
+            "email": "info@heart2heartsomatics.com"
+          }
+        ]
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-4uIaSK3a.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D2t3n21i.css">
+    <script type="module" crossorigin src="/assets/index-M0jKbax5.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C2JEKPrY.css">
   </head>
 
   <body>
