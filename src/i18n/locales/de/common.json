@@ -126,10 +126,7 @@
             "duration": "75 Minuten",
             "format": "Vor Ort oder online",
             "group": "Gruppe (min. 3 Personen, max. 7 Personen) / Einzel",
-            "priceLines": [
-              "Drop-in Classes: 30 € pro Person / 100 € pro Monat",
-              "Private Classes: 49 € pro Person"
-            ]
+            "priceLines": ""
           }
         },
         "trainings-and-workshops": {

@@ -126,10 +126,7 @@
             "duration": "75 minutes",
             "format": "In person or Online",
             "group": "Group (min. 3 people, max. 7 people) / Individual",
-            "priceLines": [
-              "Drop-in classes: €30 per person / €100 per month",
-              "Private classes: €49 per person"
-            ]
+            "priceLines": ""
           }
         },
         "trainings-and-workshops": {
